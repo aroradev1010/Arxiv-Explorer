@@ -1,0 +1,584 @@
+{
+  "query": "graph neural networks",
+  "mode": "hybrid",
+  "filters": {
+    "category": null,
+    "subject": null,
+    "year_from": null,
+    "year_to": null,
+    "author": null
+  },
+  "pagination": {
+    "limit": 10,
+    "offset": 0,
+    "returned": 10,
+    "has_more": true,
+    "ranking_window_size": 200,
+    "ranked_candidate_count": 200
+  },
+  "results": [
+    {
+      "paper": {
+        "id": "2410.17617",
+        "title": "Self-Supervised Graph Neural Networks for Enhanced Feature Extraction in\n  Heterogeneous Information Networks",
+        "abstract": "  This paper explores the applications and challenges of graph neural networks\n(GNNs) in processing complex graph data brought about by the rapid development\nof the Internet. Given the heterogeneity and redundancy problems that graph\ndata often have, traditional GNN methods may be overly dependent on the initial\nstructure and attribute information of the graph, which limits their ability to\naccurately simulate more complex relationships and patterns in the graph.\nTherefore, this study proposes a graph neural network model under a\nself-supervised learning framework, which can flexibly combine different types\nof additional information of the attribute graph and its nodes, so as to better\nmine the deep features in the graph data. By introducing a self-supervisory\nmechanism, it is expected to improve the adaptability of existing models to the\ndiversity and complexity of graph data and improve the overall performance of\nthe model.\n",
+        "authors": [
+          "Jianjun Wei",
+          "Yue Liu",
+          "Xin Huang",
+          "Xin Zhang",
+          "Wenyi Liu",
+          "Xu Yan"
+        ],
+        "authors_text": "Jianjun Wei, Yue Liu, Xin Huang, Xin Zhang, Wenyi Liu, Xu Yan",
+        "authors_source": "authors_parsed",
+        "primary_category": "cs.LG",
+        "categories": [
+          "cs.LG"
+        ],
+        "published_at": "2024-10-23",
+        "updated_at": "2024-10-24",
+        "doi": null,
+        "journal_ref": null,
+        "comments": null,
+        "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "arxiv_url": "https://arxiv.org/abs/2410.17617",
+        "pdf_url": "https://arxiv.org/pdf/2410.17617"
+      },
+      "rank": 1,
+      "score": 0.048651507139079855,
+      "algorithm": "hybrid",
+      "ranking_details": {
+        "final_rank": 1,
+        "matched_indexed_tokens": null,
+        "cosine_similarity": null,
+        "rrf_score": 0.048651507139079855,
+        "contributions": {
+          "tfidf": {
+            "rank": 1,
+            "native_score": 0.4101135467633471,
+            "contribution": 0.01639344262295082
+          },
+          "bm25": {
+            "rank": 2,
+            "native_score": 16.170659454780058,
+            "contribution": 0.016129032258064516
+          },
+          "semantic": {
+            "rank": 2,
+            "native_score": 0.629621148109436,
+            "contribution": 0.016129032258064516
+          }
+        }
+      }
+    },
+    {
+      "paper": {
+        "id": "2305.06142",
+        "title": "Feature Expansion for Graph Neural Networks",
+        "abstract": "  Graph neural networks aim to learn representations for graph-structured data\nand show impressive performance, particularly in node classification. Recently,\nmany methods have studied the representations of GNNs from the perspective of\noptimization goals and spectral graph theory. However, the feature space that\ndominates representation learning has not been systematically studied in graph\nneural networks. In this paper, we propose to fill this gap by analyzing the\nfeature space of both spatial and spectral models. We decompose graph neural\nnetworks into determined feature spaces and trainable weights, providing the\nconvenience of studying the feature space explicitly using matrix space\nanalysis. In particular, we theoretically find that the feature space tends to\nbe linearly correlated due to repeated aggregations. Motivated by these\nfindings, we propose 1) feature subspaces flattening and 2) structural\nprincipal components to expand the feature space. Extensive experiments verify\nthe effectiveness of our proposed more comprehensive feature space, with\ncomparable inference time to the baseline, and demonstrate its efficient\nconvergence capability.\n",
+        "authors": [
+          "Jiaqi Sun",
+          "Lin Zhang",
+          "Guangyi Chen",
+          "Kun Zhang",
+          "Peng XU",
+          "Yujiu Yang"
+        ],
+        "authors_text": "Jiaqi Sun, Lin Zhang, Guangyi Chen, Kun Zhang, Peng XU, Yujiu Yang",
+        "authors_source": "authors_parsed",
+        "primary_category": "cs.LG",
+        "categories": [
+          "cs.LG"
+        ],
+        "published_at": "2023-05-10",
+        "updated_at": "2023-05-30",
+        "doi": null,
+        "journal_ref": null,
+        "comments": "Accepted by ICML'23",
+        "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "arxiv_url": "https://arxiv.org/abs/2305.06142",
+        "pdf_url": "https://arxiv.org/pdf/2305.06142"
+      },
+      "rank": 2,
+      "score": 0.04642338900734423,
+      "algorithm": "hybrid",
+      "ranking_details": {
+        "final_rank": 2,
+        "matched_indexed_tokens": null,
+        "cosine_similarity": null,
+        "rrf_score": 0.04642338900734423,
+        "contributions": {
+          "tfidf": {
+            "rank": 3,
+            "native_score": 0.37286368593655395,
+            "contribution": 0.015873015873015872
+          },
+          "bm25": {
+            "rank": 7,
+            "native_score": 15.345602182392494,
+            "contribution": 0.014925373134328358
+          },
+          "semantic": {
+            "rank": 4,
+            "native_score": 0.6198612451553345,
+            "contribution": 0.015625
+          }
+        }
+      }
+    },
+    {
+      "paper": {
+        "id": "2010.08924",
+        "title": "Meta-path Free Semi-supervised Learning for Heterogeneous Networks",
+        "abstract": "  Graph neural networks (GNNs) have been widely used in representation learning\non graphs and achieved superior performance in tasks such as node\nclassification. However, analyzing heterogeneous graph of different types of\nnodes and links still brings great challenges for injecting the heterogeneity\ninto a graph neural network. A general remedy is to manually or automatically\ndesign meta-paths to transform a heterogeneous graph into a homogeneous graph,\nbut this is suboptimal since the features from the first-order neighbors are\nnot fully leveraged for training and inference. In this paper, we propose\nsimple and effective graph neural networks for heterogeneous graph, excluding\nthe use of meta-paths. Specifically, our models focus on relaxing the\nheterogeneity stress for model parameters by expanding model capacity of\ngeneral GNNs in an effective way. Extensive experimental results on six\nreal-world graphs not only show the superior performance of our proposed models\nover the state-of-the-arts, but also demonstrate the potentially good balance\nbetween reducing the heterogeneity stress and increasing the parameter size.\nOur code is freely available for reproducing our results.\n",
+        "authors": [
+          "Shin-woo Park",
+          "Byung Jun Bae",
+          "Jinyoung Yeo",
+          "Seung-won Hwang"
+        ],
+        "authors_text": "Shin-woo Park, Byung Jun Bae, Jinyoung Yeo, Seung-won Hwang",
+        "authors_source": "authors_parsed",
+        "primary_category": "cs.LG",
+        "categories": [
+          "cs.LG",
+          "cs.AI"
+        ],
+        "published_at": "2020-10-18",
+        "updated_at": "2021-01-08",
+        "doi": null,
+        "journal_ref": null,
+        "comments": "The technical description of [Proposed Models] section has an error.\n  Especially, the training process",
+        "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "arxiv_url": "https://arxiv.org/abs/2010.08924",
+        "pdf_url": "https://arxiv.org/pdf/2010.08924"
+      },
+      "rank": 3,
+      "score": 0.045715497737556565,
+      "algorithm": "hybrid",
+      "ranking_details": {
+        "final_rank": 3,
+        "matched_indexed_tokens": null,
+        "cosine_similarity": null,
+        "rrf_score": 0.045715497737556565,
+        "contributions": {
+          "tfidf": {
+            "rank": 4,
+            "native_score": 0.3298193467922352,
+            "contribution": 0.015625
+          },
+          "bm25": {
+            "rank": 5,
+            "native_score": 15.563358623714214,
+            "contribution": 0.015384615384615385
+          },
+          "semantic": {
+            "rank": 8,
+            "native_score": 0.5873099565505981,
+            "contribution": 0.014705882352941176
+          }
+        }
+      }
+    },
+    {
+      "paper": {
+        "id": "1804.01487",
+        "title": "Predicting neural network dynamics via graphical analysis",
+        "abstract": "  Neural network models in neuroscience allow one to study how the connections\nbetween neurons shape the activity of neural circuits in the brain. In this\nchapter, we study Combinatorial Threshold-Linear Networks (CTLNs) in order to\nunderstand how the pattern of connectivity, as encoded by a directed graph,\nshapes the emergent nonlinear dynamics of the corresponding network. Important\naspects of these dynamics are controlled by the stable and unstable fixed\npoints of the network, and we show how these fixed points can be determined via\ngraph-based rules. We also present an algorithm for predicting sequences of\nneural activation from the underlying directed graph, and examine the effect of\ngraph symmetries on a network's set of attractors.\n",
+        "authors": [
+          "Katherine Morrison",
+          "Carina Curto"
+        ],
+        "authors_text": "Katherine Morrison and Carina Curto",
+        "authors_source": "authors_parsed",
+        "primary_category": "q-bio.NC",
+        "categories": [
+          "q-bio.NC",
+          "math.CO"
+        ],
+        "published_at": "2018-04-04",
+        "updated_at": "2018-04-05",
+        "doi": null,
+        "journal_ref": null,
+        "comments": "29 pages, 19 figures. A book chapter for advanced undergraduates to\n  appear in \"Algebraic and Combinatorial Computational Biology.\" R. Robeva, M.\n  Macaulay (Eds) 2018",
+        "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "arxiv_url": "https://arxiv.org/abs/1804.01487",
+        "pdf_url": "https://arxiv.org/pdf/1804.01487"
+      },
+      "rank": 4,
+      "score": 0.045680369617857444,
+      "algorithm": "hybrid",
+      "ranking_details": {
+        "final_rank": 4,
+        "matched_indexed_tokens": null,
+        "cosine_similarity": null,
+        "rrf_score": 0.045680369617857444,
+        "contributions": {
+          "tfidf": {
+            "rank": 2,
+            "native_score": 0.38870453746316397,
+            "contribution": 0.016129032258064516
+          },
+          "bm25": {
+            "rank": 1,
+            "native_score": 16.180229421405368,
+            "contribution": 0.01639344262295082
+          },
+          "semantic": {
+            "rank": 16,
+            "native_score": 0.5712631344795227,
+            "contribution": 0.013157894736842105
+          }
+        }
+      }
+    },
+    {
+      "paper": {
+        "id": "2202.01606",
+        "title": "Graph Coloring with Physics-Inspired Graph Neural Networks",
+        "abstract": "  We show how graph neural networks can be used to solve the canonical graph\ncoloring problem. We frame graph coloring as a multi-class node classification\nproblem and utilize an unsupervised training strategy based on the statistical\nphysics Potts model. Generalizations to other multi-class problems such as\ncommunity detection, data clustering, and the minimum clique cover problem are\nstraightforward. We provide numerical benchmark results and illustrate our\napproach with an end-to-end application for a real-world scheduling use case\nwithin a comprehensive encode-process-decode framework. Our optimization\napproach performs on par or outperforms existing solvers, with the ability to\nscale to problems with millions of variables.\n",
+        "authors": [
+          "Martin J. A. Schuetz",
+          "J. Kyle Brubaker",
+          "Zhihuai Zhu",
+          "Helmut G. Katzgraber"
+        ],
+        "authors_text": "Martin J. A. Schuetz, J. Kyle Brubaker, Zhihuai Zhu, Helmut G.\n  Katzgraber",
+        "authors_source": "authors_parsed",
+        "primary_category": "cs.LG",
+        "categories": [
+          "cs.LG",
+          "cond-mat.dis-nn",
+          "cs.AI",
+          "math.OC",
+          "quant-ph"
+        ],
+        "published_at": "2022-02-03",
+        "updated_at": "2022-11-28",
+        "doi": "10.1103/PhysRevResearch.4.043131",
+        "journal_ref": "Phys. Rev. Research 4, 043131 (2022)",
+        "comments": "Manuscript: 8 pages, 5 figures, 2 tables. Supplemental Material: 1\n  page, 2 tables",
+        "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "arxiv_url": "https://arxiv.org/abs/2202.01606",
+        "pdf_url": "https://arxiv.org/pdf/2202.01606"
+      },
+      "rank": 5,
+      "score": 0.04243139901034638,
+      "algorithm": "hybrid",
+      "ranking_details": {
+        "final_rank": 5,
+        "matched_indexed_tokens": null,
+        "cosine_similarity": null,
+        "rrf_score": 0.04243139901034638,
+        "contributions": {
+          "tfidf": {
+            "rank": 5,
+            "native_score": 0.32488482088860426,
+            "contribution": 0.015384615384615385
+          },
+          "bm25": {
+            "rank": 16,
+            "native_score": 14.60342748770862,
+            "contribution": 0.013157894736842105
+          },
+          "semantic": {
+            "rank": 12,
+            "native_score": 0.577771782875061,
+            "contribution": 0.013888888888888888
+          }
+        }
+      }
+    },
+    {
+      "paper": {
+        "id": "2202.13013",
+        "title": "Sign and Basis Invariant Networks for Spectral Graph Representation\n  Learning",
+        "abstract": "  We introduce SignNet and BasisNet -- new neural architectures that are\ninvariant to two key symmetries displayed by eigenvectors: (i) sign flips,\nsince if $v$ is an eigenvector then so is $-v$; and (ii) more general basis\nsymmetries, which occur in higher dimensional eigenspaces with infinitely many\nchoices of basis eigenvectors. We prove that under certain conditions our\nnetworks are universal, i.e., they can approximate any continuous function of\neigenvectors with the desired invariances. When used with Laplacian\neigenvectors, our networks are provably more expressive than existing spectral\nmethods on graphs; for instance, they subsume all spectral graph convolutions,\ncertain spectral graph invariants, and previously proposed graph positional\nencodings as special cases. Experiments show that our networks significantly\noutperform existing baselines on molecular graph regression, learning\nexpressive graph representations, and learning neural fields on triangle\nmeshes. Our code is available at https://github.com/cptq/SignNet-BasisNet .\n",
+        "authors": [
+          "Derek Lim",
+          "Joshua Robinson",
+          "Lingxiao Zhao",
+          "Tess Smidt",
+          "Suvrit Sra",
+          "Haggai Maron",
+          "Stefanie Jegelka"
+        ],
+        "authors_text": "Derek Lim, Joshua Robinson, Lingxiao Zhao, Tess Smidt, Suvrit Sra,\n  Haggai Maron, Stefanie Jegelka",
+        "authors_source": "authors_parsed",
+        "primary_category": "cs.LG",
+        "categories": [
+          "cs.LG",
+          "stat.ML"
+        ],
+        "published_at": "2022-02-25",
+        "updated_at": "2022-10-04",
+        "doi": null,
+        "journal_ref": null,
+        "comments": "42 pages",
+        "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "arxiv_url": "https://arxiv.org/abs/2202.13013",
+        "pdf_url": "https://arxiv.org/pdf/2202.13013"
+      },
+      "rank": 6,
+      "score": 0.04171497584541063,
+      "algorithm": "hybrid",
+      "ranking_details": {
+        "final_rank": 6,
+        "matched_indexed_tokens": null,
+        "cosine_similarity": null,
+        "rrf_score": 0.04171497584541063,
+        "contributions": {
+          "tfidf": {
+            "rank": 15,
+            "native_score": 0.2906423219374361,
+            "contribution": 0.013333333333333334
+          },
+          "bm25": {
+            "rank": 12,
+            "native_score": 14.812563148662882,
+            "contribution": 0.013888888888888888
+          },
+          "semantic": {
+            "rank": 9,
+            "native_score": 0.584519624710083,
+            "contribution": 0.014492753623188406
+          }
+        }
+      }
+    },
+    {
+      "paper": {
+        "id": "1812.09430",
+        "title": "Dynamic Graph Representation Learning via Self-Attention Networks",
+        "abstract": "  Learning latent representations of nodes in graphs is an important and\nubiquitous task with widespread applications such as link prediction, node\nclassification, and graph visualization. Previous methods on graph\nrepresentation learning mainly focus on static graphs, however, many real-world\ngraphs are dynamic and evolve over time. In this paper, we present Dynamic\nSelf-Attention Network (DySAT), a novel neural architecture that operates on\ndynamic graphs and learns node representations that capture both structural\nproperties and temporal evolutionary patterns. Specifically, DySAT computes\nnode representations by jointly employing self-attention layers along two\ndimensions: structural neighborhood and temporal dynamics. We conduct link\nprediction experiments on two classes of graphs: communication networks and\nbipartite rating networks. Our experimental results show that DySAT has a\nsignificant performance gain over several different state-of-the-art graph\nembedding baselines.\n",
+        "authors": [
+          "Aravind Sankar",
+          "Yanhong Wu",
+          "Liang Gou",
+          "Wei Zhang",
+          "Hao Yang"
+        ],
+        "authors_text": "Aravind Sankar, Yanhong Wu, Liang Gou, Wei Zhang, Hao Yang",
+        "authors_source": "authors_parsed",
+        "primary_category": "cs.LG",
+        "categories": [
+          "cs.LG",
+          "cs.SI",
+          "stat.ML"
+        ],
+        "published_at": "2018-12-22",
+        "updated_at": "2019-06-18",
+        "doi": null,
+        "journal_ref": null,
+        "comments": null,
+        "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "arxiv_url": "https://arxiv.org/abs/1812.09430",
+        "pdf_url": "https://arxiv.org/pdf/1812.09430"
+      },
+      "rank": 7,
+      "score": 0.040637140637140634,
+      "algorithm": "hybrid",
+      "ranking_details": {
+        "final_rank": 7,
+        "matched_indexed_tokens": null,
+        "cosine_similarity": null,
+        "rrf_score": 0.040637140637140634,
+        "contributions": {
+          "tfidf": {
+            "rank": 12,
+            "native_score": 0.29655017237311254,
+            "contribution": 0.013888888888888888
+          },
+          "bm25": {
+            "rank": 28,
+            "native_score": 13.974050428643414,
+            "contribution": 0.011363636363636364
+          },
+          "semantic": {
+            "rank": 5,
+            "native_score": 0.6037410497665405,
+            "contribution": 0.015384615384615385
+          }
+        }
+      }
+    },
+    {
+      "paper": {
+        "id": "2512.03061",
+        "title": "Accumulated Local Effects and Graph Neural Networks for link prediction",
+        "abstract": "We investigate how Accumulated Local Effects (ALE), a model-agnostic explanation method, can be adapted to visualize the influence of node feature values in link prediction tasks using Graph Neural Networks (GNNs), specifically Graph Convolutional Networks and Graph Attention Networks. A key challenge addressed in this work is the complex interactions of nodes during message passing within GNN layers, complicating the direct application of ALE. Since a straightforward solution of modifying only one node at once substantially increases computation time, we propose an approximate method that mitigates this challenge. Our findings reveal that although the approximate method offers computational efficiency, the exact method yields more stable explanations, particularly when smaller data subsets are used. However, the explanations produced with the approximate method are not significantly different from the ones obtained with the exact method. Additionally, we analyze how varying parameters affect the accuracy of ALE estimation for both approaches.",
+        "authors": [
+          "Paulina Kaczy\u0144ska",
+          "Julian Sienkiewicz",
+          "Dominik \u015al\u0119zak"
+        ],
+        "authors_text": "Paulina Kaczy\\'nska, Julian Sienkiewicz, Dominik \\'Sl\\k{e}zak",
+        "authors_source": "authors_parsed",
+        "primary_category": "cs.SI",
+        "categories": [
+          "cs.SI",
+          "physics.soc-ph"
+        ],
+        "published_at": "2025-11-25",
+        "updated_at": "2025-12-04",
+        "doi": null,
+        "journal_ref": null,
+        "comments": null,
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "arxiv_url": "https://arxiv.org/abs/2512.03061",
+        "pdf_url": "https://arxiv.org/pdf/2512.03061"
+      },
+      "rank": 8,
+      "score": 0.03963278101209136,
+      "algorithm": "hybrid",
+      "ranking_details": {
+        "final_rank": 8,
+        "matched_indexed_tokens": null,
+        "cosine_similarity": null,
+        "rrf_score": 0.03963278101209136,
+        "contributions": {
+          "tfidf": {
+            "rank": 17,
+            "native_score": 0.2880216300834322,
+            "contribution": 0.012987012987012988
+          },
+          "bm25": {
+            "rank": 27,
+            "native_score": 13.993279425620724,
+            "contribution": 0.011494252873563218
+          },
+          "semantic": {
+            "rank": 6,
+            "native_score": 0.601830244064331,
+            "contribution": 0.015151515151515152
+          }
+        }
+      }
+    },
+    {
+      "paper": {
+        "id": "2102.06800",
+        "title": "Reinforcement Learning For Data Poisoning on Graph Neural Networks",
+        "abstract": "  Adversarial Machine Learning has emerged as a substantial subfield of\nComputer Science due to a lack of robustness in the models we train along with\ncrowdsourcing practices that enable attackers to tamper with data. In the last\ntwo years, interest has surged in adversarial attacks on graphs yet the Graph\nClassification setting remains nearly untouched. Since a Graph Classification\ndataset consists of discrete graphs with class labels, related work has forgone\ndirect gradient optimization in favor of an indirect Reinforcement Learning\napproach. We will study the novel problem of Data Poisoning (training time)\nattack on Neural Networks for Graph Classification using Reinforcement Learning\nAgents.\n",
+        "authors": [
+          "Jacob Dineen",
+          "A S M Ahsan-Ul Haque",
+          "Matthew Bielskas"
+        ],
+        "authors_text": "Jacob Dineen, A S M Ahsan-Ul Haque, Matthew Bielskas",
+        "authors_source": "authors_parsed",
+        "primary_category": "cs.LG",
+        "categories": [
+          "cs.LG",
+          "cs.AI",
+          "cs.CR"
+        ],
+        "published_at": "2021-02-12",
+        "updated_at": "2021-07-29",
+        "doi": "10.1007/978-3-030-80387-2_14",
+        "journal_ref": null,
+        "comments": null,
+        "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+        "arxiv_url": "https://arxiv.org/abs/2102.06800",
+        "pdf_url": "https://arxiv.org/pdf/2102.06800"
+      },
+      "rank": 9,
+      "score": 0.03926230114365509,
+      "algorithm": "hybrid",
+      "ranking_details": {
+        "final_rank": 9,
+        "matched_indexed_tokens": null,
+        "cosine_similarity": null,
+        "rrf_score": 0.03926230114365509,
+        "contributions": {
+          "tfidf": {
+            "rank": 7,
+            "native_score": 0.3196974562868822,
+            "contribution": 0.014925373134328358
+          },
+          "bm25": {
+            "rank": 13,
+            "native_score": 14.76968556197272,
+            "contribution": 0.0136986301369863
+          },
+          "semantic": {
+            "rank": 34,
+            "native_score": 0.548026978969574,
+            "contribution": 0.010638297872340425
+          }
+        }
+      }
+    },
+    {
+      "paper": {
+        "id": "2007.08663",
+        "title": "TUDataset: A collection of benchmark datasets for learning with graphs",
+        "abstract": "  Recently, there has been an increasing interest in (supervised) learning with\ngraph data, especially using graph neural networks. However, the development of\nmeaningful benchmark datasets and standardized evaluation procedures is\nlagging, consequently hindering advancements in this area. To address this, we\nintroduce the TUDataset for graph classification and regression. The collection\nconsists of over 120 datasets of varying sizes from a wide range of\napplications. We provide Python-based data loaders, kernel and graph neural\nnetwork baseline implementations, and evaluation tools. Here, we give an\noverview of the datasets, standardized evaluation procedures, and provide\nbaseline experiments. All datasets are available at www.graphlearning.io. The\nexperiments are fully reproducible from the code available at\nwww.github.com/chrsmrrs/tudataset.\n",
+        "authors": [
+          "Christopher Morris",
+          "Nils M. Kriege",
+          "Franka Bause",
+          "Kristian Kersting",
+          "Petra Mutzel",
+          "Marion Neumann"
+        ],
+        "authors_text": "Christopher Morris, Nils M. Kriege, Franka Bause, Kristian Kersting,\n  Petra Mutzel, Marion Neumann",
+        "authors_source": "authors_parsed",
+        "primary_category": "cs.LG",
+        "categories": [
+          "cs.LG",
+          "cs.NE",
+          "stat.ML"
+        ],
+        "published_at": "2020-07-16",
+        "updated_at": "2020-07-20",
+        "doi": null,
+        "journal_ref": null,
+        "comments": "ICML 2020 workshop \"Graph Representation Learning and Beyond\"",
+        "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "arxiv_url": "https://arxiv.org/abs/2007.08663",
+        "pdf_url": "https://arxiv.org/pdf/2007.08663"
+      },
+      "rank": 10,
+      "score": 0.038559506516440634,
+      "algorithm": "hybrid",
+      "ranking_details": {
+        "final_rank": 10,
+        "matched_indexed_tokens": null,
+        "cosine_similarity": null,
+        "rrf_score": 0.038559506516440634,
+        "contributions": {
+          "tfidf": {
+            "rank": 34,
+            "native_score": 0.2672539390756681,
+            "contribution": 0.010638297872340425
+          },
+          "bm25": {
+            "rank": 23,
+            "native_score": 14.239028641079726,
+            "contribution": 0.012048192771084338
+          },
+          "semantic": {
+            "rank": 3,
+            "native_score": 0.6288051009178162,
+            "contribution": 0.015873015873015872
+          }
+        }
+      }
+    }
+  ],
+  "timing_ms": {
+    "preprocessing": 12.2939,
+    "eligibility": 0.0313,
+    "embedding": 102.9377,
+    "tfidf": 62.7643,
+    "bm25": 7.2625,
+    "semantic": 56.7454,
+    "retrieval": 126.7722,
+    "fusion": 1.7162,
+    "metadata": 20.0267,
+    "total": 266.48089988157153
+  },
+  "index_version": "2c337b4bf10d10a8e8943c6fa8b0c9a7d9b731ec41eb2f6ec846bbb7f351616c"
+}

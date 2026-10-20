@@ -1,0 +1,452 @@
+{
+  "query": "graph neural networks",
+  "mode": "bm25",
+  "filters": {
+    "category": null,
+    "subject": null,
+    "year_from": null,
+    "year_to": null,
+    "author": null
+  },
+  "pagination": {
+    "limit": 10,
+    "offset": 0,
+    "returned": 10,
+    "has_more": true,
+    "ranking_window_size": 1000,
+    "ranked_candidate_count": 1000
+  },
+  "results": [
+    {
+      "paper": {
+        "id": "1804.01487",
+        "title": "Predicting neural network dynamics via graphical analysis",
+        "abstract": "  Neural network models in neuroscience allow one to study how the connections\nbetween neurons shape the activity of neural circuits in the brain. In this\nchapter, we study Combinatorial Threshold-Linear Networks (CTLNs) in order to\nunderstand how the pattern of connectivity, as encoded by a directed graph,\nshapes the emergent nonlinear dynamics of the corresponding network. Important\naspects of these dynamics are controlled by the stable and unstable fixed\npoints of the network, and we show how these fixed points can be determined via\ngraph-based rules. We also present an algorithm for predicting sequences of\nneural activation from the underlying directed graph, and examine the effect of\ngraph symmetries on a network's set of attractors.\n",
+        "authors": [
+          "Katherine Morrison",
+          "Carina Curto"
+        ],
+        "authors_text": "Katherine Morrison and Carina Curto",
+        "authors_source": "authors_parsed",
+        "primary_category": "q-bio.NC",
+        "categories": [
+          "q-bio.NC",
+          "math.CO"
+        ],
+        "published_at": "2018-04-04",
+        "updated_at": "2018-04-05",
+        "doi": null,
+        "journal_ref": null,
+        "comments": "29 pages, 19 figures. A book chapter for advanced undergraduates to\n  appear in \"Algebraic and Combinatorial Computational Biology.\" R. Robeva, M.\n  Macaulay (Eds) 2018",
+        "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "arxiv_url": "https://arxiv.org/abs/1804.01487",
+        "pdf_url": "https://arxiv.org/pdf/1804.01487"
+      },
+      "rank": 1,
+      "score": 16.180229421405368,
+      "algorithm": "bm25",
+      "ranking_details": {
+        "final_rank": 1,
+        "matched_indexed_tokens": [
+          "graph",
+          "network",
+          "neural"
+        ],
+        "cosine_similarity": null,
+        "rrf_score": null,
+        "contributions": null
+      }
+    },
+    {
+      "paper": {
+        "id": "2410.17617",
+        "title": "Self-Supervised Graph Neural Networks for Enhanced Feature Extraction in\n  Heterogeneous Information Networks",
+        "abstract": "  This paper explores the applications and challenges of graph neural networks\n(GNNs) in processing complex graph data brought about by the rapid development\nof the Internet. Given the heterogeneity and redundancy problems that graph\ndata often have, traditional GNN methods may be overly dependent on the initial\nstructure and attribute information of the graph, which limits their ability to\naccurately simulate more complex relationships and patterns in the graph.\nTherefore, this study proposes a graph neural network model under a\nself-supervised learning framework, which can flexibly combine different types\nof additional information of the attribute graph and its nodes, so as to better\nmine the deep features in the graph data. By introducing a self-supervisory\nmechanism, it is expected to improve the adaptability of existing models to the\ndiversity and complexity of graph data and improve the overall performance of\nthe model.\n",
+        "authors": [
+          "Jianjun Wei",
+          "Yue Liu",
+          "Xin Huang",
+          "Xin Zhang",
+          "Wenyi Liu",
+          "Xu Yan"
+        ],
+        "authors_text": "Jianjun Wei, Yue Liu, Xin Huang, Xin Zhang, Wenyi Liu, Xu Yan",
+        "authors_source": "authors_parsed",
+        "primary_category": "cs.LG",
+        "categories": [
+          "cs.LG"
+        ],
+        "published_at": "2024-10-23",
+        "updated_at": "2024-10-24",
+        "doi": null,
+        "journal_ref": null,
+        "comments": null,
+        "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "arxiv_url": "https://arxiv.org/abs/2410.17617",
+        "pdf_url": "https://arxiv.org/pdf/2410.17617"
+      },
+      "rank": 2,
+      "score": 16.170659454780058,
+      "algorithm": "bm25",
+      "ranking_details": {
+        "final_rank": 2,
+        "matched_indexed_tokens": [
+          "graph",
+          "network",
+          "neural"
+        ],
+        "cosine_similarity": null,
+        "rrf_score": null,
+        "contributions": null
+      }
+    },
+    {
+      "paper": {
+        "id": "2602.08619",
+        "title": "Enhancing Genetic Algorithms with Graph Neural Networks: A Timetabling Case Study",
+        "abstract": "This paper investigates the impact of hybridizing a multi-modal Genetic Algorithm with a Graph Neural Network for timetabling optimization. The Graph Neural Network is designed to encapsulate general domain knowledge to improve schedule quality, while the Genetic Algorithm explores different regions of the search space and integrates the deep learning model as an enhancement operator to guide the solution search towards optimality. Initially, both components of the hybrid technique were designed, developed, and optimized independently to solve the tackled task. Multiple experiments were conducted on Staff Rostering, a well-known timetabling problem, to compare the proposed hybridization with the standalone optimized versions of the Genetic Algorithm and Graph Neural Network. The experimental results demonstrate that the proposed hybridization brings statistically significant improvements in both the time efficiency and solution quality metrics, compared to the standalone methods. To the best of our knowledge, this work proposes the first hybridization of a Genetic Algorithm with a Graph Neural Network for solving timetabling problems.",
+        "authors": [
+          "Laura-Maria Cornei",
+          "Mihaela-Elena Breab\u0103n"
+        ],
+        "authors_text": "Laura-Maria Cornei and Mihaela-Elena Breab\\u{a}n",
+        "authors_source": "authors_parsed",
+        "primary_category": "cs.NE",
+        "categories": [
+          "cs.NE",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "published_at": "2026-02-09",
+        "updated_at": "2026-02-10",
+        "doi": null,
+        "journal_ref": null,
+        "comments": "Paper accepted to the International Conference on Applications of Evolutionary Computation (EvoApplications) 2026",
+        "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+        "arxiv_url": "https://arxiv.org/abs/2602.08619",
+        "pdf_url": "https://arxiv.org/pdf/2602.08619"
+      },
+      "rank": 3,
+      "score": 15.832360539966103,
+      "algorithm": "bm25",
+      "ranking_details": {
+        "final_rank": 3,
+        "matched_indexed_tokens": [
+          "graph",
+          "network",
+          "neural"
+        ],
+        "cosine_similarity": null,
+        "rrf_score": null,
+        "contributions": null
+      }
+    },
+    {
+      "paper": {
+        "id": "2211.02930",
+        "title": "1-D Convolutional Graph Convolutional Networks for Fault Detection in\n  Distributed Energy Systems",
+        "abstract": "  This paper presents a 1-D convolutional graph neural network for fault\ndetection in microgrids. The combination of 1-D convolutional neural networks\n(1D-CNN) and graph convolutional networks (GCN) helps extract both\nspatial-temporal correlations from the voltage measurements in microgrids. The\nfault detection scheme includes fault event detection, fault type and phase\nclassification, and fault location. There are five neural network model\ntraining to handle these tasks. Transfer learning and fine-tuning are applied\nto reduce training efforts. The combined recurrent graph convolutional neural\nnetworks (1D-CGCN) is compared with the traditional ANN structure on the\nPotsdam 13-bus microgrid dataset. The achievable accuracy of 99.27%, 98.1%,\n98.75%, and 95.6% for fault detection, fault type classification, fault phase\nidentification, and fault location respectively.\n",
+        "authors": [
+          "Bang L. H. Nguyen",
+          "Tuyen Vu",
+          "Thai-Thanh Nguyen",
+          "Mayank Panwar",
+          "Rob Hovsapian"
+        ],
+        "authors_text": "Bang L.H. Nguyen, Tuyen Vu, Thai-Thanh Nguyen, Mayank Panwar and Rob\n  Hovsapian",
+        "authors_source": "authors_parsed",
+        "primary_category": "eess.SY",
+        "categories": [
+          "eess.SY",
+          "cs.LG",
+          "cs.SY"
+        ],
+        "published_at": "2022-11-05",
+        "updated_at": "2022-11-08",
+        "doi": null,
+        "journal_ref": null,
+        "comments": "arXiv admin note: text overlap with arXiv:2210.15177",
+        "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "arxiv_url": "https://arxiv.org/abs/2211.02930",
+        "pdf_url": "https://arxiv.org/pdf/2211.02930"
+      },
+      "rank": 4,
+      "score": 15.64566999727187,
+      "algorithm": "bm25",
+      "ranking_details": {
+        "final_rank": 4,
+        "matched_indexed_tokens": [
+          "graph",
+          "network",
+          "neural"
+        ],
+        "cosine_similarity": null,
+        "rrf_score": null,
+        "contributions": null
+      }
+    },
+    {
+      "paper": {
+        "id": "2010.08924",
+        "title": "Meta-path Free Semi-supervised Learning for Heterogeneous Networks",
+        "abstract": "  Graph neural networks (GNNs) have been widely used in representation learning\non graphs and achieved superior performance in tasks such as node\nclassification. However, analyzing heterogeneous graph of different types of\nnodes and links still brings great challenges for injecting the heterogeneity\ninto a graph neural network. A general remedy is to manually or automatically\ndesign meta-paths to transform a heterogeneous graph into a homogeneous graph,\nbut this is suboptimal since the features from the first-order neighbors are\nnot fully leveraged for training and inference. In this paper, we propose\nsimple and effective graph neural networks for heterogeneous graph, excluding\nthe use of meta-paths. Specifically, our models focus on relaxing the\nheterogeneity stress for model parameters by expanding model capacity of\ngeneral GNNs in an effective way. Extensive experimental results on six\nreal-world graphs not only show the superior performance of our proposed models\nover the state-of-the-arts, but also demonstrate the potentially good balance\nbetween reducing the heterogeneity stress and increasing the parameter size.\nOur code is freely available for reproducing our results.\n",
+        "authors": [
+          "Shin-woo Park",
+          "Byung Jun Bae",
+          "Jinyoung Yeo",
+          "Seung-won Hwang"
+        ],
+        "authors_text": "Shin-woo Park, Byung Jun Bae, Jinyoung Yeo, Seung-won Hwang",
+        "authors_source": "authors_parsed",
+        "primary_category": "cs.LG",
+        "categories": [
+          "cs.LG",
+          "cs.AI"
+        ],
+        "published_at": "2020-10-18",
+        "updated_at": "2021-01-08",
+        "doi": null,
+        "journal_ref": null,
+        "comments": "The technical description of [Proposed Models] section has an error.\n  Especially, the training process",
+        "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "arxiv_url": "https://arxiv.org/abs/2010.08924",
+        "pdf_url": "https://arxiv.org/pdf/2010.08924"
+      },
+      "rank": 5,
+      "score": 15.563358623714214,
+      "algorithm": "bm25",
+      "ranking_details": {
+        "final_rank": 5,
+        "matched_indexed_tokens": [
+          "graph",
+          "network",
+          "neural"
+        ],
+        "cosine_similarity": null,
+        "rrf_score": null,
+        "contributions": null
+      }
+    },
+    {
+      "paper": {
+        "id": "1903.04982",
+        "title": "A Capsule-unified Framework of Deep Neural Networks for Graphical\n  Programming",
+        "abstract": "  Recently, the growth of deep learning has produced a large number of deep\nneural networks. How to describe these networks unifiedly is becoming an\nimportant issue. We first formalize neural networks in a mathematical\ndefinition, give their directed graph representations, and prove a generation\ntheorem about the induced networks of connected directed acyclic graphs. Then,\nusing the concept of capsule to extend neural networks, we set up a\ncapsule-unified framework for deep learning, including a mathematical\ndefinition of capsules, an induced model for capsule networks and a universal\nbackpropagation algorithm for training them. Finally, we discuss potential\napplications of the framework to graphical programming with standard graphical\nsymbols of capsules, neurons, and connections.\n",
+        "authors": [
+          "Yujian Li",
+          "Chuanhui Shan"
+        ],
+        "authors_text": "Yujian Li and Chuanhui Shan",
+        "authors_source": "authors_parsed",
+        "primary_category": "cs.LG",
+        "categories": [
+          "cs.LG"
+        ],
+        "published_at": "2019-03-07",
+        "updated_at": "2019-03-14",
+        "doi": null,
+        "journal_ref": null,
+        "comments": "20 pages; 26 figures. arXiv admin note: text overlap with\n  arXiv:1805.03551",
+        "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "arxiv_url": "https://arxiv.org/abs/1903.04982",
+        "pdf_url": "https://arxiv.org/pdf/1903.04982"
+      },
+      "rank": 6,
+      "score": 15.42177334724321,
+      "algorithm": "bm25",
+      "ranking_details": {
+        "final_rank": 6,
+        "matched_indexed_tokens": [
+          "graph",
+          "network",
+          "neural"
+        ],
+        "cosine_similarity": null,
+        "rrf_score": null,
+        "contributions": null
+      }
+    },
+    {
+      "paper": {
+        "id": "2305.06142",
+        "title": "Feature Expansion for Graph Neural Networks",
+        "abstract": "  Graph neural networks aim to learn representations for graph-structured data\nand show impressive performance, particularly in node classification. Recently,\nmany methods have studied the representations of GNNs from the perspective of\noptimization goals and spectral graph theory. However, the feature space that\ndominates representation learning has not been systematically studied in graph\nneural networks. In this paper, we propose to fill this gap by analyzing the\nfeature space of both spatial and spectral models. We decompose graph neural\nnetworks into determined feature spaces and trainable weights, providing the\nconvenience of studying the feature space explicitly using matrix space\nanalysis. In particular, we theoretically find that the feature space tends to\nbe linearly correlated due to repeated aggregations. Motivated by these\nfindings, we propose 1) feature subspaces flattening and 2) structural\nprincipal components to expand the feature space. Extensive experiments verify\nthe effectiveness of our proposed more comprehensive feature space, with\ncomparable inference time to the baseline, and demonstrate its efficient\nconvergence capability.\n",
+        "authors": [
+          "Jiaqi Sun",
+          "Lin Zhang",
+          "Guangyi Chen",
+          "Kun Zhang",
+          "Peng XU",
+          "Yujiu Yang"
+        ],
+        "authors_text": "Jiaqi Sun, Lin Zhang, Guangyi Chen, Kun Zhang, Peng XU, Yujiu Yang",
+        "authors_source": "authors_parsed",
+        "primary_category": "cs.LG",
+        "categories": [
+          "cs.LG"
+        ],
+        "published_at": "2023-05-10",
+        "updated_at": "2023-05-30",
+        "doi": null,
+        "journal_ref": null,
+        "comments": "Accepted by ICML'23",
+        "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "arxiv_url": "https://arxiv.org/abs/2305.06142",
+        "pdf_url": "https://arxiv.org/pdf/2305.06142"
+      },
+      "rank": 7,
+      "score": 15.345602182392494,
+      "algorithm": "bm25",
+      "ranking_details": {
+        "final_rank": 7,
+        "matched_indexed_tokens": [
+          "graph",
+          "network",
+          "neural"
+        ],
+        "cosine_similarity": null,
+        "rrf_score": null,
+        "contributions": null
+      }
+    },
+    {
+      "paper": {
+        "id": "2210.06391",
+        "title": "What Makes Graph Neural Networks Miscalibrated?",
+        "abstract": "  Given the importance of getting calibrated predictions and reliable\nuncertainty estimations, various post-hoc calibration methods have been\ndeveloped for neural networks on standard multi-class classification tasks.\nHowever, these methods are not well suited for calibrating graph neural\nnetworks (GNNs), which presents unique challenges such as accounting for the\ngraph structure and the graph-induced correlations between the nodes. In this\nwork, we conduct a systematic study on the calibration qualities of GNN node\npredictions. In particular, we identify five factors which influence the\ncalibration of GNNs: general under-confident tendency, diversity of nodewise\npredictive distributions, distance to training nodes, relative confidence\nlevel, and neighborhood similarity. Furthermore, based on the insights from\nthis study, we design a novel calibration method named Graph Attention\nTemperature Scaling (GATS), which is tailored for calibrating graph neural\nnetworks. GATS incorporates designs that address all the identified influential\nfactors and produces nodewise temperature scaling using an attention-based\narchitecture. GATS is accuracy-preserving, data-efficient, and expressive at\nthe same time. Our experiments empirically verify the effectiveness of GATS,\ndemonstrating that it can consistently achieve state-of-the-art calibration\nresults on various graph datasets for different GNN backbones.\n",
+        "authors": [
+          "Hans Hao-Hsun Hsu",
+          "Yuesong Shen",
+          "Christian Tomani",
+          "Daniel Cremers"
+        ],
+        "authors_text": "Hans Hao-Hsun Hsu and Yuesong Shen and Christian Tomani and Daniel\n  Cremers",
+        "authors_source": "authors_parsed",
+        "primary_category": "cs.LG",
+        "categories": [
+          "cs.LG",
+          "cs.AI"
+        ],
+        "published_at": "2022-10-12",
+        "updated_at": "2022-10-13",
+        "doi": null,
+        "journal_ref": null,
+        "comments": "Accepted to NeurIPS 2022",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "arxiv_url": "https://arxiv.org/abs/2210.06391",
+        "pdf_url": "https://arxiv.org/pdf/2210.06391"
+      },
+      "rank": 8,
+      "score": 15.067486621803056,
+      "algorithm": "bm25",
+      "ranking_details": {
+        "final_rank": 8,
+        "matched_indexed_tokens": [
+          "graph",
+          "network",
+          "neural"
+        ],
+        "cosine_similarity": null,
+        "rrf_score": null,
+        "contributions": null
+      }
+    },
+    {
+      "paper": {
+        "id": "2505.02664",
+        "title": "Grasp the Graph (GtG) 2.0: Ensemble of Graph Neural Networks for High-Precision Grasp Pose Detection in Clutter",
+        "abstract": "Grasp pose detection in cluttered, real-world environments remains a significant challenge due to noisy and incomplete sensory data combined with complex object geometries. This paper introduces Grasp the Graph 2.0 (GtG 2.0) method, a lightweight yet highly effective hypothesis-and-test robotics grasping framework which leverages an ensemble of Graph Neural Networks for efficient geometric reasoning from point cloud data. Building on the success of GtG 1.0, which demonstrated the potential of Graph Neural Networks for grasp detection but was limited by assumptions of complete, noise-free point clouds and 4-Dof grasping, GtG 2.0 employs a conventional Grasp Pose Generator to efficiently produce 7-Dof grasp candidates. Candidates are assessed with an ensemble Graph Neural Network model which includes points within the gripper jaws (inside points) and surrounding contextual points (outside points). This improved representation boosts grasp detection performance over previous methods using the same generator. GtG 2.0 shows up to a 35% improvement in Average Precision on the GraspNet-1Billion benchmark compared to hypothesis-and-test and Graph Neural Network-based methods, ranking it among the top three frameworks. Experiments with a 3-Dof Delta Parallel robot and Kinect-v1 camera show a success rate of 91% and a clutter completion rate of 100%, demonstrating its flexibility and reliability.",
+        "authors": [
+          "Ali Rashidi Moghadam",
+          "Sayedmohammadreza Rastegari",
+          "Mehdi Tale Masouleh",
+          "Ahmad Kalhor"
+        ],
+        "authors_text": "Ali Rashidi Moghadam, Sayedmohammadreza Rastegari, Mehdi Tale Masouleh, Ahmad Kalhor",
+        "authors_source": "authors_parsed",
+        "primary_category": "cs.RO",
+        "categories": [
+          "cs.RO",
+          "cs.CV",
+          "cs.LG"
+        ],
+        "published_at": "2025-05-05",
+        "updated_at": "2026-01-12",
+        "doi": null,
+        "journal_ref": null,
+        "comments": "20 pages",
+        "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "arxiv_url": "https://arxiv.org/abs/2505.02664",
+        "pdf_url": "https://arxiv.org/pdf/2505.02664"
+      },
+      "rank": 9,
+      "score": 14.897458320407232,
+      "algorithm": "bm25",
+      "ranking_details": {
+        "final_rank": 9,
+        "matched_indexed_tokens": [
+          "graph",
+          "network",
+          "neural"
+        ],
+        "cosine_similarity": null,
+        "rrf_score": null,
+        "contributions": null
+      }
+    },
+    {
+      "paper": {
+        "id": "1805.07591",
+        "title": "Entity-Duet Neural Ranking: Understanding the Role of Knowledge Graph\n  Semantics in Neural Information Retrieval",
+        "abstract": "  This paper presents the Entity-Duet Neural Ranking Model (EDRM), which\nintroduces knowledge graphs to neural search systems. EDRM represents queries\nand documents by their words and entity annotations. The semantics from\nknowledge graphs are integrated in the distributed representations of their\nentities, while the ranking is conducted by interaction-based neural ranking\nnetworks. The two components are learned end-to-end, making EDRM a natural\ncombination of entity-oriented search and neural information retrieval. Our\nexperiments on a commercial search log demonstrate the effectiveness of EDRM.\nOur analyses reveal that knowledge graph semantics significantly improve the\ngeneralization ability of neural ranking models.\n",
+        "authors": [
+          "Zhenghao Liu",
+          "Chenyan Xiong",
+          "Maosong Sun",
+          "Zhiyuan Liu"
+        ],
+        "authors_text": "Zhenghao Liu, Chenyan Xiong, Maosong Sun and Zhiyuan Liu",
+        "authors_source": "authors_parsed",
+        "primary_category": "cs.IR",
+        "categories": [
+          "cs.IR"
+        ],
+        "published_at": "2018-05-19",
+        "updated_at": "2018-06-05",
+        "doi": null,
+        "journal_ref": null,
+        "comments": "9 pages, 6 figures, ACL2018",
+        "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "arxiv_url": "https://arxiv.org/abs/1805.07591",
+        "pdf_url": "https://arxiv.org/pdf/1805.07591"
+      },
+      "rank": 10,
+      "score": 14.859367938678908,
+      "algorithm": "bm25",
+      "ranking_details": {
+        "final_rank": 10,
+        "matched_indexed_tokens": [
+          "graph",
+          "network",
+          "neural"
+        ],
+        "cosine_similarity": null,
+        "rrf_score": null,
+        "contributions": null
+      }
+    }
+  ],
+  "timing_ms": {
+    "preprocessing": 0.3514,
+    "eligibility": 0.002,
+    "embedding": 0.0,
+    "tfidf": 0.0,
+    "bm25": 5.7712,
+    "semantic": 0.0,
+    "retrieval": 5.7712,
+    "fusion": 0.0,
+    "metadata": 3.5516,
+    "total": 10.640599997714162
+  },
+  "index_version": "2c337b4bf10d10a8e8943c6fa8b0c9a7d9b731ec41eb2f6ec846bbb7f351616c"
+}

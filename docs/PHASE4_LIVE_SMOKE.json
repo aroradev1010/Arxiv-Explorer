@@ -1,0 +1,38 @@
+{
+  "hybrid": {
+    "first_id": "2410.17617",
+    "score": 0.048651507139079855,
+    "returned": 10,
+    "ms": 266.48089988157153
+  },
+  "tfidf": {
+    "first_id": "2410.17617",
+    "score": 0.4101135467633471,
+    "returned": 10,
+    "ms": 34.2123000882566
+  },
+  "bm25": {
+    "first_id": "1804.01487",
+    "score": 16.180229421405368,
+    "returned": 10,
+    "ms": 10.640599997714162
+  },
+  "semantic": {
+    "first_id": "1905.03046",
+    "score": 0.6352552771568298,
+    "returned": 10,
+    "ms": 29.153400100767612
+  },
+  "author_combined_filter_returned": 1,
+  "legacy_id": "acc-phys/9411004",
+  "filtered_returned": 10,
+  "paper_id": "2410.17617",
+  "similar_count": 5,
+  "compared_methods": [
+    "tfidf",
+    "bm25",
+    "semantic",
+    "hybrid"
+  ],
+  "status": "passed"
+}

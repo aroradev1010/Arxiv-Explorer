@@ -1,0 +1,429 @@
+{
+  "query": "graph neural networks",
+  "mode": "semantic",
+  "filters": {
+    "category": null,
+    "subject": null,
+    "year_from": null,
+    "year_to": null,
+    "author": null
+  },
+  "pagination": {
+    "limit": 10,
+    "offset": 0,
+    "returned": 10,
+    "has_more": true,
+    "ranking_window_size": 1000,
+    "ranked_candidate_count": 1000
+  },
+  "results": [
+    {
+      "paper": {
+        "id": "1905.03046",
+        "title": "PiNet: A Permutation Invariant Graph Neural Network for Graph\n  Classification",
+        "abstract": "  We propose an end-to-end deep learning learning model for graph\nclassification and representation learning that is invariant to permutation of\nthe nodes of the input graphs. We address the challenge of learning a fixed\nsize graph representation for graphs of varying dimensions through a\ndifferentiable node attention pooling mechanism. In addition to a theoretical\nproof of its invariance to permutation, we provide empirical evidence\ndemonstrating the statistically significant gain in accuracy when faced with an\nisomorphic graph classification task given only a small number of training\nexamples. We analyse the effect of four different matrices to facilitate the\nlocal message passing mechanism by which graph convolutions are performed vs. a\nmatrix parametrised by a learned parameter pair able to transition smoothly\nbetween the former. Finally, we show that our model achieves competitive\nclassification performance with existing techniques on a set of molecule\ndatasets.\n",
+        "authors": [
+          "Peter Meltzer",
+          "Marcelo Daniel Gutierrez Mallea",
+          "Peter J. Bentley"
+        ],
+        "authors_text": "Peter Meltzer, Marcelo Daniel Gutierrez Mallea and Peter J. Bentley",
+        "authors_source": "authors_parsed",
+        "primary_category": "cs.LG",
+        "categories": [
+          "cs.LG",
+          "cs.CV",
+          "cs.NE",
+          "stat.ML"
+        ],
+        "published_at": "2019-05-08",
+        "updated_at": "2019-05-09",
+        "doi": null,
+        "journal_ref": null,
+        "comments": "7 pages, 4 figures",
+        "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "arxiv_url": "https://arxiv.org/abs/1905.03046",
+        "pdf_url": "https://arxiv.org/pdf/1905.03046"
+      },
+      "rank": 1,
+      "score": 0.6352552771568298,
+      "algorithm": "semantic",
+      "ranking_details": {
+        "final_rank": 1,
+        "matched_indexed_tokens": null,
+        "cosine_similarity": 0.6352552771568298,
+        "rrf_score": null,
+        "contributions": null
+      }
+    },
+    {
+      "paper": {
+        "id": "2410.17617",
+        "title": "Self-Supervised Graph Neural Networks for Enhanced Feature Extraction in\n  Heterogeneous Information Networks",
+        "abstract": "  This paper explores the applications and challenges of graph neural networks\n(GNNs) in processing complex graph data brought about by the rapid development\nof the Internet. Given the heterogeneity and redundancy problems that graph\ndata often have, traditional GNN methods may be overly dependent on the initial\nstructure and attribute information of the graph, which limits their ability to\naccurately simulate more complex relationships and patterns in the graph.\nTherefore, this study proposes a graph neural network model under a\nself-supervised learning framework, which can flexibly combine different types\nof additional information of the attribute graph and its nodes, so as to better\nmine the deep features in the graph data. By introducing a self-supervisory\nmechanism, it is expected to improve the adaptability of existing models to the\ndiversity and complexity of graph data and improve the overall performance of\nthe model.\n",
+        "authors": [
+          "Jianjun Wei",
+          "Yue Liu",
+          "Xin Huang",
+          "Xin Zhang",
+          "Wenyi Liu",
+          "Xu Yan"
+        ],
+        "authors_text": "Jianjun Wei, Yue Liu, Xin Huang, Xin Zhang, Wenyi Liu, Xu Yan",
+        "authors_source": "authors_parsed",
+        "primary_category": "cs.LG",
+        "categories": [
+          "cs.LG"
+        ],
+        "published_at": "2024-10-23",
+        "updated_at": "2024-10-24",
+        "doi": null,
+        "journal_ref": null,
+        "comments": null,
+        "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "arxiv_url": "https://arxiv.org/abs/2410.17617",
+        "pdf_url": "https://arxiv.org/pdf/2410.17617"
+      },
+      "rank": 2,
+      "score": 0.629621148109436,
+      "algorithm": "semantic",
+      "ranking_details": {
+        "final_rank": 2,
+        "matched_indexed_tokens": null,
+        "cosine_similarity": 0.629621148109436,
+        "rrf_score": null,
+        "contributions": null
+      }
+    },
+    {
+      "paper": {
+        "id": "2007.08663",
+        "title": "TUDataset: A collection of benchmark datasets for learning with graphs",
+        "abstract": "  Recently, there has been an increasing interest in (supervised) learning with\ngraph data, especially using graph neural networks. However, the development of\nmeaningful benchmark datasets and standardized evaluation procedures is\nlagging, consequently hindering advancements in this area. To address this, we\nintroduce the TUDataset for graph classification and regression. The collection\nconsists of over 120 datasets of varying sizes from a wide range of\napplications. We provide Python-based data loaders, kernel and graph neural\nnetwork baseline implementations, and evaluation tools. Here, we give an\noverview of the datasets, standardized evaluation procedures, and provide\nbaseline experiments. All datasets are available at www.graphlearning.io. The\nexperiments are fully reproducible from the code available at\nwww.github.com/chrsmrrs/tudataset.\n",
+        "authors": [
+          "Christopher Morris",
+          "Nils M. Kriege",
+          "Franka Bause",
+          "Kristian Kersting",
+          "Petra Mutzel",
+          "Marion Neumann"
+        ],
+        "authors_text": "Christopher Morris, Nils M. Kriege, Franka Bause, Kristian Kersting,\n  Petra Mutzel, Marion Neumann",
+        "authors_source": "authors_parsed",
+        "primary_category": "cs.LG",
+        "categories": [
+          "cs.LG",
+          "cs.NE",
+          "stat.ML"
+        ],
+        "published_at": "2020-07-16",
+        "updated_at": "2020-07-20",
+        "doi": null,
+        "journal_ref": null,
+        "comments": "ICML 2020 workshop \"Graph Representation Learning and Beyond\"",
+        "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "arxiv_url": "https://arxiv.org/abs/2007.08663",
+        "pdf_url": "https://arxiv.org/pdf/2007.08663"
+      },
+      "rank": 3,
+      "score": 0.6288051009178162,
+      "algorithm": "semantic",
+      "ranking_details": {
+        "final_rank": 3,
+        "matched_indexed_tokens": null,
+        "cosine_similarity": 0.6288051009178162,
+        "rrf_score": null,
+        "contributions": null
+      }
+    },
+    {
+      "paper": {
+        "id": "2305.06142",
+        "title": "Feature Expansion for Graph Neural Networks",
+        "abstract": "  Graph neural networks aim to learn representations for graph-structured data\nand show impressive performance, particularly in node classification. Recently,\nmany methods have studied the representations of GNNs from the perspective of\noptimization goals and spectral graph theory. However, the feature space that\ndominates representation learning has not been systematically studied in graph\nneural networks. In this paper, we propose to fill this gap by analyzing the\nfeature space of both spatial and spectral models. We decompose graph neural\nnetworks into determined feature spaces and trainable weights, providing the\nconvenience of studying the feature space explicitly using matrix space\nanalysis. In particular, we theoretically find that the feature space tends to\nbe linearly correlated due to repeated aggregations. Motivated by these\nfindings, we propose 1) feature subspaces flattening and 2) structural\nprincipal components to expand the feature space. Extensive experiments verify\nthe effectiveness of our proposed more comprehensive feature space, with\ncomparable inference time to the baseline, and demonstrate its efficient\nconvergence capability.\n",
+        "authors": [
+          "Jiaqi Sun",
+          "Lin Zhang",
+          "Guangyi Chen",
+          "Kun Zhang",
+          "Peng XU",
+          "Yujiu Yang"
+        ],
+        "authors_text": "Jiaqi Sun, Lin Zhang, Guangyi Chen, Kun Zhang, Peng XU, Yujiu Yang",
+        "authors_source": "authors_parsed",
+        "primary_category": "cs.LG",
+        "categories": [
+          "cs.LG"
+        ],
+        "published_at": "2023-05-10",
+        "updated_at": "2023-05-30",
+        "doi": null,
+        "journal_ref": null,
+        "comments": "Accepted by ICML'23",
+        "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "arxiv_url": "https://arxiv.org/abs/2305.06142",
+        "pdf_url": "https://arxiv.org/pdf/2305.06142"
+      },
+      "rank": 4,
+      "score": 0.6198612451553345,
+      "algorithm": "semantic",
+      "ranking_details": {
+        "final_rank": 4,
+        "matched_indexed_tokens": null,
+        "cosine_similarity": 0.6198612451553345,
+        "rrf_score": null,
+        "contributions": null
+      }
+    },
+    {
+      "paper": {
+        "id": "1812.09430",
+        "title": "Dynamic Graph Representation Learning via Self-Attention Networks",
+        "abstract": "  Learning latent representations of nodes in graphs is an important and\nubiquitous task with widespread applications such as link prediction, node\nclassification, and graph visualization. Previous methods on graph\nrepresentation learning mainly focus on static graphs, however, many real-world\ngraphs are dynamic and evolve over time. In this paper, we present Dynamic\nSelf-Attention Network (DySAT), a novel neural architecture that operates on\ndynamic graphs and learns node representations that capture both structural\nproperties and temporal evolutionary patterns. Specifically, DySAT computes\nnode representations by jointly employing self-attention layers along two\ndimensions: structural neighborhood and temporal dynamics. We conduct link\nprediction experiments on two classes of graphs: communication networks and\nbipartite rating networks. Our experimental results show that DySAT has a\nsignificant performance gain over several different state-of-the-art graph\nembedding baselines.\n",
+        "authors": [
+          "Aravind Sankar",
+          "Yanhong Wu",
+          "Liang Gou",
+          "Wei Zhang",
+          "Hao Yang"
+        ],
+        "authors_text": "Aravind Sankar, Yanhong Wu, Liang Gou, Wei Zhang, Hao Yang",
+        "authors_source": "authors_parsed",
+        "primary_category": "cs.LG",
+        "categories": [
+          "cs.LG",
+          "cs.SI",
+          "stat.ML"
+        ],
+        "published_at": "2018-12-22",
+        "updated_at": "2019-06-18",
+        "doi": null,
+        "journal_ref": null,
+        "comments": null,
+        "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "arxiv_url": "https://arxiv.org/abs/1812.09430",
+        "pdf_url": "https://arxiv.org/pdf/1812.09430"
+      },
+      "rank": 5,
+      "score": 0.6037410497665405,
+      "algorithm": "semantic",
+      "ranking_details": {
+        "final_rank": 5,
+        "matched_indexed_tokens": null,
+        "cosine_similarity": 0.6037410497665405,
+        "rrf_score": null,
+        "contributions": null
+      }
+    },
+    {
+      "paper": {
+        "id": "2512.03061",
+        "title": "Accumulated Local Effects and Graph Neural Networks for link prediction",
+        "abstract": "We investigate how Accumulated Local Effects (ALE), a model-agnostic explanation method, can be adapted to visualize the influence of node feature values in link prediction tasks using Graph Neural Networks (GNNs), specifically Graph Convolutional Networks and Graph Attention Networks. A key challenge addressed in this work is the complex interactions of nodes during message passing within GNN layers, complicating the direct application of ALE. Since a straightforward solution of modifying only one node at once substantially increases computation time, we propose an approximate method that mitigates this challenge. Our findings reveal that although the approximate method offers computational efficiency, the exact method yields more stable explanations, particularly when smaller data subsets are used. However, the explanations produced with the approximate method are not significantly different from the ones obtained with the exact method. Additionally, we analyze how varying parameters affect the accuracy of ALE estimation for both approaches.",
+        "authors": [
+          "Paulina Kaczy\u0144ska",
+          "Julian Sienkiewicz",
+          "Dominik \u015al\u0119zak"
+        ],
+        "authors_text": "Paulina Kaczy\\'nska, Julian Sienkiewicz, Dominik \\'Sl\\k{e}zak",
+        "authors_source": "authors_parsed",
+        "primary_category": "cs.SI",
+        "categories": [
+          "cs.SI",
+          "physics.soc-ph"
+        ],
+        "published_at": "2025-11-25",
+        "updated_at": "2025-12-04",
+        "doi": null,
+        "journal_ref": null,
+        "comments": null,
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "arxiv_url": "https://arxiv.org/abs/2512.03061",
+        "pdf_url": "https://arxiv.org/pdf/2512.03061"
+      },
+      "rank": 6,
+      "score": 0.601830244064331,
+      "algorithm": "semantic",
+      "ranking_details": {
+        "final_rank": 6,
+        "matched_indexed_tokens": null,
+        "cosine_similarity": 0.601830244064331,
+        "rrf_score": null,
+        "contributions": null
+      }
+    },
+    {
+      "paper": {
+        "id": "2012.11898",
+        "title": "Graph Autoencoders with Deconvolutional Networks",
+        "abstract": "  Recent studies have indicated that Graph Convolutional Networks (GCNs) act as\na \\emph{low pass} filter in spectral domain and encode smoothed node\nrepresentations. In this paper, we consider their opposite, namely Graph\nDeconvolutional Networks (GDNs) that reconstruct graph signals from smoothed\nnode representations. We motivate the design of Graph Deconvolutional Networks\nvia a combination of inverse filters in spectral domain and de-noising layers\nin wavelet domain, as the inverse operation results in a \\emph{high pass}\nfilter and may amplify the noise. Based on the proposed GDN, we further propose\na graph autoencoder framework that first encodes smoothed graph representations\nwith GCN and then decodes accurate graph signals with GDN. We demonstrate the\neffectiveness of the proposed method on several tasks including unsupervised\ngraph-level representation , social recommendation and graph generation\n",
+        "authors": [
+          "Jia Li",
+          "Tomas Yu",
+          "Da-Cheng Juan",
+          "Arjun Gopalan",
+          "Hong Cheng",
+          "Andrew Tomkins"
+        ],
+        "authors_text": "Jia Li, Tomas Yu, Da-Cheng Juan, Arjun Gopalan, Hong Cheng, Andrew\n  Tomkins",
+        "authors_source": "authors_parsed",
+        "primary_category": "cs.LG",
+        "categories": [
+          "cs.LG",
+          "cs.AI"
+        ],
+        "published_at": "2020-12-22",
+        "updated_at": "2020-12-23",
+        "doi": null,
+        "journal_ref": null,
+        "comments": null,
+        "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "arxiv_url": "https://arxiv.org/abs/2012.11898",
+        "pdf_url": "https://arxiv.org/pdf/2012.11898"
+      },
+      "rank": 7,
+      "score": 0.6014372110366821,
+      "algorithm": "semantic",
+      "ranking_details": {
+        "final_rank": 7,
+        "matched_indexed_tokens": null,
+        "cosine_similarity": 0.6014372110366821,
+        "rrf_score": null,
+        "contributions": null
+      }
+    },
+    {
+      "paper": {
+        "id": "2010.08924",
+        "title": "Meta-path Free Semi-supervised Learning for Heterogeneous Networks",
+        "abstract": "  Graph neural networks (GNNs) have been widely used in representation learning\non graphs and achieved superior performance in tasks such as node\nclassification. However, analyzing heterogeneous graph of different types of\nnodes and links still brings great challenges for injecting the heterogeneity\ninto a graph neural network. A general remedy is to manually or automatically\ndesign meta-paths to transform a heterogeneous graph into a homogeneous graph,\nbut this is suboptimal since the features from the first-order neighbors are\nnot fully leveraged for training and inference. In this paper, we propose\nsimple and effective graph neural networks for heterogeneous graph, excluding\nthe use of meta-paths. Specifically, our models focus on relaxing the\nheterogeneity stress for model parameters by expanding model capacity of\ngeneral GNNs in an effective way. Extensive experimental results on six\nreal-world graphs not only show the superior performance of our proposed models\nover the state-of-the-arts, but also demonstrate the potentially good balance\nbetween reducing the heterogeneity stress and increasing the parameter size.\nOur code is freely available for reproducing our results.\n",
+        "authors": [
+          "Shin-woo Park",
+          "Byung Jun Bae",
+          "Jinyoung Yeo",
+          "Seung-won Hwang"
+        ],
+        "authors_text": "Shin-woo Park, Byung Jun Bae, Jinyoung Yeo, Seung-won Hwang",
+        "authors_source": "authors_parsed",
+        "primary_category": "cs.LG",
+        "categories": [
+          "cs.LG",
+          "cs.AI"
+        ],
+        "published_at": "2020-10-18",
+        "updated_at": "2021-01-08",
+        "doi": null,
+        "journal_ref": null,
+        "comments": "The technical description of [Proposed Models] section has an error.\n  Especially, the training process",
+        "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "arxiv_url": "https://arxiv.org/abs/2010.08924",
+        "pdf_url": "https://arxiv.org/pdf/2010.08924"
+      },
+      "rank": 8,
+      "score": 0.5873099565505981,
+      "algorithm": "semantic",
+      "ranking_details": {
+        "final_rank": 8,
+        "matched_indexed_tokens": null,
+        "cosine_similarity": 0.5873099565505981,
+        "rrf_score": null,
+        "contributions": null
+      }
+    },
+    {
+      "paper": {
+        "id": "2202.13013",
+        "title": "Sign and Basis Invariant Networks for Spectral Graph Representation\n  Learning",
+        "abstract": "  We introduce SignNet and BasisNet -- new neural architectures that are\ninvariant to two key symmetries displayed by eigenvectors: (i) sign flips,\nsince if $v$ is an eigenvector then so is $-v$; and (ii) more general basis\nsymmetries, which occur in higher dimensional eigenspaces with infinitely many\nchoices of basis eigenvectors. We prove that under certain conditions our\nnetworks are universal, i.e., they can approximate any continuous function of\neigenvectors with the desired invariances. When used with Laplacian\neigenvectors, our networks are provably more expressive than existing spectral\nmethods on graphs; for instance, they subsume all spectral graph convolutions,\ncertain spectral graph invariants, and previously proposed graph positional\nencodings as special cases. Experiments show that our networks significantly\noutperform existing baselines on molecular graph regression, learning\nexpressive graph representations, and learning neural fields on triangle\nmeshes. Our code is available at https://github.com/cptq/SignNet-BasisNet .\n",
+        "authors": [
+          "Derek Lim",
+          "Joshua Robinson",
+          "Lingxiao Zhao",
+          "Tess Smidt",
+          "Suvrit Sra",
+          "Haggai Maron",
+          "Stefanie Jegelka"
+        ],
+        "authors_text": "Derek Lim, Joshua Robinson, Lingxiao Zhao, Tess Smidt, Suvrit Sra,\n  Haggai Maron, Stefanie Jegelka",
+        "authors_source": "authors_parsed",
+        "primary_category": "cs.LG",
+        "categories": [
+          "cs.LG",
+          "stat.ML"
+        ],
+        "published_at": "2022-02-25",
+        "updated_at": "2022-10-04",
+        "doi": null,
+        "journal_ref": null,
+        "comments": "42 pages",
+        "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "arxiv_url": "https://arxiv.org/abs/2202.13013",
+        "pdf_url": "https://arxiv.org/pdf/2202.13013"
+      },
+      "rank": 9,
+      "score": 0.584519624710083,
+      "algorithm": "semantic",
+      "ranking_details": {
+        "final_rank": 9,
+        "matched_indexed_tokens": null,
+        "cosine_similarity": 0.584519624710083,
+        "rrf_score": null,
+        "contributions": null
+      }
+    },
+    {
+      "paper": {
+        "id": "1809.07695",
+        "title": "Multitask Learning on Graph Neural Networks: Learning Multiple Graph\n  Centrality Measures with a Unified Network",
+        "abstract": "  The application of deep learning to symbolic domains remains an active\nresearch endeavour. Graph neural networks (GNN), consisting of trained neural\nmodules which can be arranged in different topologies at run time, are sound\nalternatives to tackle relational problems which lend themselves to graph\nrepresentations. In this paper, we show that GNNs are capable of multitask\nlearning, which can be naturally enforced by training the model to refine a\nsingle set of multidimensional embeddings $\\in \\mathbb{R}^d$ and decode them\ninto multiple outputs by connecting MLPs at the end of the pipeline. We\ndemonstrate the multitask learning capability of the model in the relevant\nrelational problem of estimating network centrality measures, focusing\nprimarily on producing rankings based on these measures, i.e. is vertex $v_1$\nmore central than vertex $v_2$ given centrality $c$?. We then show that a GNN\ncan be trained to develop a \\emph{lingua franca} of vertex embeddings from\nwhich all relevant information about any of the trained centrality measures can\nbe decoded. The proposed model achieves $89\\%$ accuracy on a test dataset of\nrandom instances with up to 128 vertices and is shown to generalise to larger\nproblem sizes. The model is also shown to obtain reasonable accuracy on a\ndataset of real world instances with up to 4k vertices, vastly surpassing the\nsizes of the largest instances with which the model was trained ($n=128$).\nFinally, we believe that our contributions attest to the potential of GNNs in\nsymbolic domains in general and in relational learning in particular.\n",
+        "authors": [
+          "Pedro H. C. Avelar",
+          "Henrique Lemos",
+          "Marcelo O. R. Prates",
+          "Luis Lamb"
+        ],
+        "authors_text": "Pedro H. C. Avelar and Henrique Lemos and Marcelo O. R. Prates and\n  Luis Lamb",
+        "authors_source": "authors_parsed",
+        "primary_category": "cs.SI",
+        "categories": [
+          "cs.SI",
+          "cs.AI",
+          "cs.LG",
+          "cs.NE",
+          "stat.ML"
+        ],
+        "published_at": "2018-09-11",
+        "updated_at": "2019-12-02",
+        "doi": "10.1007/978-3-030-30493-5_63",
+        "journal_ref": null,
+        "comments": "Published at ICANN2019. 10 pages, 3 Figures",
+        "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "arxiv_url": "https://arxiv.org/abs/1809.07695",
+        "pdf_url": "https://arxiv.org/pdf/1809.07695"
+      },
+      "rank": 10,
+      "score": 0.5799403786659241,
+      "algorithm": "semantic",
+      "ranking_details": {
+        "final_rank": 10,
+        "matched_indexed_tokens": null,
+        "cosine_similarity": 0.5799403786659241,
+        "rrf_score": null,
+        "contributions": null
+      }
+    }
+  ],
+  "timing_ms": {
+    "preprocessing": 0.0224,
+    "eligibility": 0.0034,
+    "embedding": 16.8716,
+    "tfidf": 0.0,
+    "bm25": 0.0,
+    "semantic": 7.4382,
+    "retrieval": 7.4382,
+    "fusion": 0.0,
+    "metadata": 4.5888,
+    "total": 29.153400100767612
+  },
+  "index_version": "2c337b4bf10d10a8e8943c6fa8b0c9a7d9b731ec41eb2f6ec846bbb7f351616c"
+}

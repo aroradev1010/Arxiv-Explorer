@@ -1,0 +1,13 @@
+import type { components } from "./generated";
+type S = components["schemas"];
+export type Mode = S["RankedPaper"]["algorithm"];
+export type Filters = S["Filters"];
+export type Paper = S["Paper"];
+export type RankedPaper = S["RankedPaper"];
+export type SearchResponse = S["SearchResponse"];
+export type CompareResponse = S["CompareResponse"];
+export type CompareRequest = S["CompareRequest"];
+export type SimilarResponse = S["SimilarResponse"];
+export type Categories = S["CategoryResponse"];
+export type Stats = S["Stats"];
+export type Health = S["Health"];
