@@ -26,12 +26,9 @@ class Settings(BaseSettings):
     worker_threads: int = Field(default=2, ge=1, le=8)
     compute_threads: int = Field(default=2, ge=1, le=8)
     queue_timeout_seconds: float = Field(default=1, gt=0, le=30)
-    evaluation_enabled: bool = True
-    evaluation_mutations_enabled: bool = False
-    evaluation_db_path: Path = ROOT / 'var/evaluation.sqlite'
     cors_origins: Annotated[list[str], NoDecode] = ['http://localhost:3000', 'http://127.0.0.1:3000']
 
-    @field_validator('dataset_dir', 'index_dir', 'model_dir', 'metadata_db', 'evaluation_db_path', mode='before')
+    @field_validator('dataset_dir', 'index_dir', 'model_dir', 'metadata_db', mode='before')
     @classmethod
     def paths(cls, value: str | Path) -> Path:
         path = Path(value)
@@ -49,6 +46,4 @@ class Settings(BaseSettings):
     def limits(self):
         if self.default_result_limit > self.max_result_limit or self.rrf_candidate_depth > self.max_ranking_window:
             raise ValueError('Default limits exceed configured maxima')
-        if self.evaluation_db_path == self.metadata_db or any(self.evaluation_db_path.is_relative_to(p) for p in (self.dataset_dir, self.index_dir, self.model_dir, ROOT / 'data')):
-            raise ValueError('Evaluation database must be separate from protected assets and metadata cache')
         return self

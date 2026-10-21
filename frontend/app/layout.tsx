@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Suspense } from "react";
 import { Providers } from "@/components/layout/providers";
 import { Header } from "@/components/layout/header";
-import { Footer } from "@/components/layout/footer";
 import "./globals.css";
 export const metadata: Metadata = {
   title: {
@@ -18,7 +17,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" className="dark">
       <body>
         <Providers>
           <a className="skip-link" href="#main">
@@ -30,7 +29,6 @@ export default function RootLayout({
               {children}
             </Suspense>
           </main>
-          <Footer />
         </Providers>
       </body>
     </html>

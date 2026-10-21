@@ -24,13 +24,9 @@ export function Home() {
   return (
     <>
       <section className="hero">
-        <div className="eyebrow">
-          Ideas are connected. Find the connections.
-        </div>
         <h1>
-          Explore Research.
-          <br />
-          <span>Discover Knowledge.</span>
+          Explore
+          <span> Research</span>
         </h1>
         <p className="intro">
           Search and compare academic papers using traditional information
@@ -93,8 +89,7 @@ export function Home() {
       <section>
         <div className="section-heading">
           <div>
-            <div className="eyebrow mb-2">Four ways to discover</div>
-            <h2>One collection. Different perspectives.</h2>
+            <div className="eyebrow mb-2">Four ways </div>
           </div>
           <Link href="/compare" className="text-sm text-primary">
             Compare methods <ArrowUpRight className="inline" size={15} />
@@ -120,12 +115,6 @@ export function Home() {
               </div>
             );
           })}
-        </div>
-        <div className="mt-8 text-sm text-secondary">
-          Built for transparent research discovery.{" "}
-          <Link href="/about" className="text-primary">
-            Read the methodology →
-          </Link>
         </div>
       </section>
     </>

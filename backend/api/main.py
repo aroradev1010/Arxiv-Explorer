@@ -49,16 +49,8 @@ def create_app(settings: Settings | None = None, resource_loader=load_resources)
             except Exception:
                 application.state.startup_error = 'Search engine initialization failed; consult server logs'
                 logger.exception('search_engine_initialization_failed')
-            from backend.evaluation.router import initialize
-            application.state.evaluation = None
-            try:
-                initialize(application, settings)
-            except Exception:
-                logger.exception('evaluation_initialization_failed')
             yield
         finally:
-            from backend.evaluation.router import shutdown
-            await shutdown(application)
             application.state.service = None
             await asyncio.to_thread(pool.shutdown, wait=True, cancel_futures=True)
             if resources is not None:
@@ -68,7 +60,7 @@ def create_app(settings: Settings | None = None, resource_loader=load_resources)
     application = FastAPI(title='ArXiv Explorer API', version='2.0.0', lifespan=lifespan,
                           description='Search the verified local ArXiv corpus. Scores are native relevance scores, not probabilities.')
     application.add_middleware(CORSMiddleware, allow_origins=settings.cors_origins,
-                               allow_methods=['GET', 'POST', 'PUT', 'PATCH'], allow_headers=['Content-Type'])
+                               allow_methods=['GET', 'POST'], allow_headers=['Content-Type'])
     errors = {422: {'model': ErrorResponse}, 503: {'model': ErrorResponse}, 500: {'model': ErrorResponse}}
 
     def error(status: int, code: str, message: str, details=None):
@@ -164,8 +156,6 @@ def create_app(settings: Settings | None = None, resource_loader=load_resources)
             return JSONResponse(status_code=503, content=Health(status='not_ready', reason='Search metadata unavailable or capacity busy').model_dump())
         return Health(status='ready')
 
-    from backend.evaluation.router import install
-    install(application, settings)
     return application
 
 

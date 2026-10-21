@@ -79,10 +79,10 @@ def main():
         if thread.is_alive():
             raise RuntimeError('API server did not shut down cleanly')
         report['clean_shutdown'] = True
-    output = ROOT / 'docs/PHASE2_API_SMOKE.json'
+    output = ROOT / 'var/api-smoke.json'
     output.write_text(json.dumps(report, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
     print(json.dumps({'status': report['status'], 'real_search_requests': len(report['searches']),
-                      'clean_shutdown': report['clean_shutdown'], 'report': 'docs/PHASE2_API_SMOKE.json'}), flush=True)
+                      'clean_shutdown': report['clean_shutdown'], 'report': 'var/api-smoke.json'}), flush=True)
 
 
 if __name__ == '__main__':

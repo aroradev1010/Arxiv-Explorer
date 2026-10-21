@@ -1,1 +1,0 @@
-Test data only: read-only snapshots of the actual local API, captured by scripts/live-smoke.py. Never imported by production components. Legacy and error fixtures in tests are explicitly synthetic test cases.

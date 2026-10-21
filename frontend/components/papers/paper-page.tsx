@@ -11,6 +11,9 @@ export function SimilarPapers({ id }: { id: string }) {
     queryKey: ["similar", id],
     queryFn: ({ signal }) => api.similar(id, signal),
   });
+  const recommendations = similar.data?.results.filter(
+    (result) => result.paper.id !== id,
+  );
   return (
     <section className="article-section">
       <div className="eyebrow">Keep exploring</div>
@@ -22,10 +25,10 @@ export function SimilarPapers({ id }: { id: string }) {
         <LoadingSkeleton />
       ) : similar.isError ? (
         <ErrorState error={similar.error} retry={() => similar.refetch()} />
-      ) : similar.data?.results.filter((r) => r.paper.id !== id).length ? (
-        similar.data.results
-          .filter((r) => r.paper.id !== id)
-          .map((r) => <PaperCard key={r.paper.id} result={r} />)
+      ) : recommendations?.length ? (
+        recommendations.map((result) => (
+          <PaperCard key={result.paper.id} result={result} />
+        ))
       ) : (
         <EmptyState title="No recommendations available" />
       )}

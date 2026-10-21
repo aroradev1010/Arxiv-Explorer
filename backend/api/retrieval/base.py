@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import Protocol
 import numpy as np
 
 
@@ -18,10 +17,6 @@ class PreparedQuery:
     counts: object
     tfidf: object
     vector: np.ndarray | None
-
-
-class Retriever(Protocol):
-    def search(self, query: PreparedQuery, top_k: int, eligible_positions: np.ndarray | None = None) -> list[SearchHit]: ...
 
 
 def select(scores: np.ndarray, ids: list[str], algorithm: str, top_k: int,

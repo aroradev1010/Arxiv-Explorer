@@ -1,0 +1,1487 @@
+﻿query_id,query_text,paper_id,title,abstract,relevance
+Q001,graph neural networks,0707.0930,"Bayesian Learning of Neural Networks for Signal/Background
+  Discrimination in Particle Physics","  Neural networks are used extensively in classification problems in particle
+physics research. Since the training of neural networks can be viewed as a
+problem of inference, Bayesian learning of neural networks can provide more
+optimal and robust results than conventional learning methods. We have
+investigated the use of Bayesian neural networks for signal/background
+discrimination in the search for second generation leptoquarks at the Tevatron,
+as an example. We present a comparison of the results obtained from the
+conventional training of feedforward neural networks and networks trained with
+Bayesian methods.
+",0
+Q001,graph neural networks,1706.07101,The energy landscape of a simple neural network,"  We explore the energy landscape of a simple neural network. In particular, we
+expand upon previous work demonstrating that the empirical complexity of fitted
+neural networks is vastly less than a naive parameter count would suggest and
+that this implicit regularization is actually beneficial for generalization
+from fitted models.
+",0
+Q001,graph neural networks,1804.01487,Predicting neural network dynamics via graphical analysis,"  Neural network models in neuroscience allow one to study how the connections
+between neurons shape the activity of neural circuits in the brain. In this
+chapter, we study Combinatorial Threshold-Linear Networks (CTLNs) in order to
+understand how the pattern of connectivity, as encoded by a directed graph,
+shapes the emergent nonlinear dynamics of the corresponding network. Important
+aspects of these dynamics are controlled by the stable and unstable fixed
+points of the network, and we show how these fixed points can be determined via
+graph-based rules. We also present an algorithm for predicting sequences of
+neural activation from the underlying directed graph, and examine the effect of
+graph symmetries on a network's set of attractors.
+",1
+Q001,graph neural networks,1805.07591,"Entity-Duet Neural Ranking: Understanding the Role of Knowledge Graph
+  Semantics in Neural Information Retrieval","  This paper presents the Entity-Duet Neural Ranking Model (EDRM), which
+introduces knowledge graphs to neural search systems. EDRM represents queries
+and documents by their words and entity annotations. The semantics from
+knowledge graphs are integrated in the distributed representations of their
+entities, while the ranking is conducted by interaction-based neural ranking
+networks. The two components are learned end-to-end, making EDRM a natural
+combination of entity-oriented search and neural information retrieval. Our
+experiments on a commercial search log demonstrate the effectiveness of EDRM.
+Our analyses reveal that knowledge graph semantics significantly improve the
+generalization ability of neural ranking models.
+",1
+Q001,graph neural networks,1809.07695,"Multitask Learning on Graph Neural Networks: Learning Multiple Graph
+  Centrality Measures with a Unified Network","  The application of deep learning to symbolic domains remains an active
+research endeavour. Graph neural networks (GNN), consisting of trained neural
+modules which can be arranged in different topologies at run time, are sound
+alternatives to tackle relational problems which lend themselves to graph
+representations. In this paper, we show that GNNs are capable of multitask
+learning, which can be naturally enforced by training the model to refine a
+single set of multidimensional embeddings $\in \mathbb{R}^d$ and decode them
+into multiple outputs by connecting MLPs at the end of the pipeline. We
+demonstrate the multitask learning capability of the model in the relevant
+relational problem of estimating network centrality measures, focusing
+primarily on producing rankings based on these measures, i.e. is vertex $v_1$
+more central than vertex $v_2$ given centrality $c$?. We then show that a GNN
+can be trained to develop a \emph{lingua franca} of vertex embeddings from
+which all relevant information about any of the trained centrality measures can
+be decoded. The proposed model achieves $89\%$ accuracy on a test dataset of
+random instances with up to 128 vertices and is shown to generalise to larger
+problem sizes. The model is also shown to obtain reasonable accuracy on a
+dataset of real world instances with up to 4k vertices, vastly surpassing the
+sizes of the largest instances with which the model was trained ($n=128$).
+Finally, we believe that our contributions attest to the potential of GNNs in
+symbolic domains in general and in relational learning in particular.
+",2
+Q001,graph neural networks,1812.09430,Dynamic Graph Representation Learning via Self-Attention Networks,"  Learning latent representations of nodes in graphs is an important and
+ubiquitous task with widespread applications such as link prediction, node
+classification, and graph visualization. Previous methods on graph
+representation learning mainly focus on static graphs, however, many real-world
+graphs are dynamic and evolve over time. In this paper, we present Dynamic
+Self-Attention Network (DySAT), a novel neural architecture that operates on
+dynamic graphs and learns node representations that capture both structural
+properties and temporal evolutionary patterns. Specifically, DySAT computes
+node representations by jointly employing self-attention layers along two
+dimensions: structural neighborhood and temporal dynamics. We conduct link
+prediction experiments on two classes of graphs: communication networks and
+bipartite rating networks. Our experimental results show that DySAT has a
+significant performance gain over several different state-of-the-art graph
+embedding baselines.
+",2
+Q001,graph neural networks,1903.04982,"A Capsule-unified Framework of Deep Neural Networks for Graphical
+  Programming","  Recently, the growth of deep learning has produced a large number of deep
+neural networks. How to describe these networks unifiedly is becoming an
+important issue. We first formalize neural networks in a mathematical
+definition, give their directed graph representations, and prove a generation
+theorem about the induced networks of connected directed acyclic graphs. Then,
+using the concept of capsule to extend neural networks, we set up a
+capsule-unified framework for deep learning, including a mathematical
+definition of capsules, an induced model for capsule networks and a universal
+backpropagation algorithm for training them. Finally, we discuss potential
+applications of the framework to graphical programming with standard graphical
+symbols of capsules, neurons, and connections.
+",0
+Q001,graph neural networks,1905.03046,"PiNet: A Permutation Invariant Graph Neural Network for Graph
+  Classification","  We propose an end-to-end deep learning learning model for graph
+classification and representation learning that is invariant to permutation of
+the nodes of the input graphs. We address the challenge of learning a fixed
+size graph representation for graphs of varying dimensions through a
+differentiable node attention pooling mechanism. In addition to a theoretical
+proof of its invariance to permutation, we provide empirical evidence
+demonstrating the statistically significant gain in accuracy when faced with an
+isomorphic graph classification task given only a small number of training
+examples. We analyse the effect of four different matrices to facilitate the
+local message passing mechanism by which graph convolutions are performed vs. a
+matrix parametrised by a learned parameter pair able to transition smoothly
+between the former. Finally, we show that our model achieves competitive
+classification performance with existing techniques on a set of molecule
+datasets.
+",2
+Q001,graph neural networks,2007.08663,TUDataset: A collection of benchmark datasets for learning with graphs,"  Recently, there has been an increasing interest in (supervised) learning with
+graph data, especially using graph neural networks. However, the development of
+meaningful benchmark datasets and standardized evaluation procedures is
+lagging, consequently hindering advancements in this area. To address this, we
+introduce the TUDataset for graph classification and regression. The collection
+consists of over 120 datasets of varying sizes from a wide range of
+applications. We provide Python-based data loaders, kernel and graph neural
+network baseline implementations, and evaluation tools. Here, we give an
+overview of the datasets, standardized evaluation procedures, and provide
+baseline experiments. All datasets are available at www.graphlearning.io. The
+experiments are fully reproducible from the code available at
+www.github.com/chrsmrrs/tudataset.
+",2
+Q001,graph neural networks,2010.08924,Meta-path Free Semi-supervised Learning for Heterogeneous Networks,"  Graph neural networks (GNNs) have been widely used in representation learning
+on graphs and achieved superior performance in tasks such as node
+classification. However, analyzing heterogeneous graph of different types of
+nodes and links still brings great challenges for injecting the heterogeneity
+into a graph neural network. A general remedy is to manually or automatically
+design meta-paths to transform a heterogeneous graph into a homogeneous graph,
+but this is suboptimal since the features from the first-order neighbors are
+not fully leveraged for training and inference. In this paper, we propose
+simple and effective graph neural networks for heterogeneous graph, excluding
+the use of meta-paths. Specifically, our models focus on relaxing the
+heterogeneity stress for model parameters by expanding model capacity of
+general GNNs in an effective way. Extensive experimental results on six
+real-world graphs not only show the superior performance of our proposed models
+over the state-of-the-arts, but also demonstrate the potentially good balance
+between reducing the heterogeneity stress and increasing the parameter size.
+Our code is freely available for reproducing our results.
+",2
+Q001,graph neural networks,2012.11898,Graph Autoencoders with Deconvolutional Networks,"  Recent studies have indicated that Graph Convolutional Networks (GCNs) act as
+a \emph{low pass} filter in spectral domain and encode smoothed node
+representations. In this paper, we consider their opposite, namely Graph
+Deconvolutional Networks (GDNs) that reconstruct graph signals from smoothed
+node representations. We motivate the design of Graph Deconvolutional Networks
+via a combination of inverse filters in spectral domain and de-noising layers
+in wavelet domain, as the inverse operation results in a \emph{high pass}
+filter and may amplify the noise. Based on the proposed GDN, we further propose
+a graph autoencoder framework that first encodes smoothed graph representations
+with GCN and then decodes accurate graph signals with GDN. We demonstrate the
+effectiveness of the proposed method on several tasks including unsupervised
+graph-level representation , social recommendation and graph generation
+",2
+Q001,graph neural networks,2102.06800,Reinforcement Learning For Data Poisoning on Graph Neural Networks,"  Adversarial Machine Learning has emerged as a substantial subfield of
+Computer Science due to a lack of robustness in the models we train along with
+crowdsourcing practices that enable attackers to tamper with data. In the last
+two years, interest has surged in adversarial attacks on graphs yet the Graph
+Classification setting remains nearly untouched. Since a Graph Classification
+dataset consists of discrete graphs with class labels, related work has forgone
+direct gradient optimization in favor of an indirect Reinforcement Learning
+approach. We will study the novel problem of Data Poisoning (training time)
+attack on Neural Networks for Graph Classification using Reinforcement Learning
+Agents.
+",2
+Q001,graph neural networks,2202.01606,Graph Coloring with Physics-Inspired Graph Neural Networks,"  We show how graph neural networks can be used to solve the canonical graph
+coloring problem. We frame graph coloring as a multi-class node classification
+problem and utilize an unsupervised training strategy based on the statistical
+physics Potts model. Generalizations to other multi-class problems such as
+community detection, data clustering, and the minimum clique cover problem are
+straightforward. We provide numerical benchmark results and illustrate our
+approach with an end-to-end application for a real-world scheduling use case
+within a comprehensive encode-process-decode framework. Our optimization
+approach performs on par or outperforms existing solvers, with the ability to
+scale to problems with millions of variables.
+",2
+Q001,graph neural networks,2202.13013,"Sign and Basis Invariant Networks for Spectral Graph Representation
+  Learning","  We introduce SignNet and BasisNet -- new neural architectures that are
+invariant to two key symmetries displayed by eigenvectors: (i) sign flips,
+since if $v$ is an eigenvector then so is $-v$; and (ii) more general basis
+symmetries, which occur in higher dimensional eigenspaces with infinitely many
+choices of basis eigenvectors. We prove that under certain conditions our
+networks are universal, i.e., they can approximate any continuous function of
+eigenvectors with the desired invariances. When used with Laplacian
+eigenvectors, our networks are provably more expressive than existing spectral
+methods on graphs; for instance, they subsume all spectral graph convolutions,
+certain spectral graph invariants, and previously proposed graph positional
+encodings as special cases. Experiments show that our networks significantly
+outperform existing baselines on molecular graph regression, learning
+expressive graph representations, and learning neural fields on triangle
+meshes. Our code is available at https://github.com/cptq/SignNet-BasisNet .
+",2
+Q001,graph neural networks,2210.06391,What Makes Graph Neural Networks Miscalibrated?,"  Given the importance of getting calibrated predictions and reliable
+uncertainty estimations, various post-hoc calibration methods have been
+developed for neural networks on standard multi-class classification tasks.
+However, these methods are not well suited for calibrating graph neural
+networks (GNNs), which presents unique challenges such as accounting for the
+graph structure and the graph-induced correlations between the nodes. In this
+work, we conduct a systematic study on the calibration qualities of GNN node
+predictions. In particular, we identify five factors which influence the
+calibration of GNNs: general under-confident tendency, diversity of nodewise
+predictive distributions, distance to training nodes, relative confidence
+level, and neighborhood similarity. Furthermore, based on the insights from
+this study, we design a novel calibration method named Graph Attention
+Temperature Scaling (GATS), which is tailored for calibrating graph neural
+networks. GATS incorporates designs that address all the identified influential
+factors and produces nodewise temperature scaling using an attention-based
+architecture. GATS is accuracy-preserving, data-efficient, and expressive at
+the same time. Our experiments empirically verify the effectiveness of GATS,
+demonstrating that it can consistently achieve state-of-the-art calibration
+results on various graph datasets for different GNN backbones.
+",2
+Q001,graph neural networks,2211.02930,"1-D Convolutional Graph Convolutional Networks for Fault Detection in
+  Distributed Energy Systems","  This paper presents a 1-D convolutional graph neural network for fault
+detection in microgrids. The combination of 1-D convolutional neural networks
+(1D-CNN) and graph convolutional networks (GCN) helps extract both
+spatial-temporal correlations from the voltage measurements in microgrids. The
+fault detection scheme includes fault event detection, fault type and phase
+classification, and fault location. There are five neural network model
+training to handle these tasks. Transfer learning and fine-tuning are applied
+to reduce training efforts. The combined recurrent graph convolutional neural
+networks (1D-CGCN) is compared with the traditional ANN structure on the
+Potsdam 13-bus microgrid dataset. The achievable accuracy of 99.27%, 98.1%,
+98.75%, and 95.6% for fault detection, fault type classification, fault phase
+identification, and fault location respectively.
+",2
+Q001,graph neural networks,2305.06142,Feature Expansion for Graph Neural Networks,"  Graph neural networks aim to learn representations for graph-structured data
+and show impressive performance, particularly in node classification. Recently,
+many methods have studied the representations of GNNs from the perspective of
+optimization goals and spectral graph theory. However, the feature space that
+dominates representation learning has not been systematically studied in graph
+neural networks. In this paper, we propose to fill this gap by analyzing the
+feature space of both spatial and spectral models. We decompose graph neural
+networks into determined feature spaces and trainable weights, providing the
+convenience of studying the feature space explicitly using matrix space
+analysis. In particular, we theoretically find that the feature space tends to
+be linearly correlated due to repeated aggregations. Motivated by these
+findings, we propose 1) feature subspaces flattening and 2) structural
+principal components to expand the feature space. Extensive experiments verify
+the effectiveness of our proposed more comprehensive feature space, with
+comparable inference time to the baseline, and demonstrate its efficient
+convergence capability.
+",2
+Q001,graph neural networks,2410.17617,"Self-Supervised Graph Neural Networks for Enhanced Feature Extraction in
+  Heterogeneous Information Networks","  This paper explores the applications and challenges of graph neural networks
+(GNNs) in processing complex graph data brought about by the rapid development
+of the Internet. Given the heterogeneity and redundancy problems that graph
+data often have, traditional GNN methods may be overly dependent on the initial
+structure and attribute information of the graph, which limits their ability to
+accurately simulate more complex relationships and patterns in the graph.
+Therefore, this study proposes a graph neural network model under a
+self-supervised learning framework, which can flexibly combine different types
+of additional information of the attribute graph and its nodes, so as to better
+mine the deep features in the graph data. By introducing a self-supervisory
+mechanism, it is expected to improve the adaptability of existing models to the
+diversity and complexity of graph data and improve the overall performance of
+the model.
+",2
+Q001,graph neural networks,2505.02664,Grasp the Graph (GtG) 2.0: Ensemble of Graph Neural Networks for High-Precision Grasp Pose Detection in Clutter,"Grasp pose detection in cluttered, real-world environments remains a significant challenge due to noisy and incomplete sensory data combined with complex object geometries. This paper introduces Grasp the Graph 2.0 (GtG 2.0) method, a lightweight yet highly effective hypothesis-and-test robotics grasping framework which leverages an ensemble of Graph Neural Networks for efficient geometric reasoning from point cloud data. Building on the success of GtG 1.0, which demonstrated the potential of Graph Neural Networks for grasp detection but was limited by assumptions of complete, noise-free point clouds and 4-Dof grasping, GtG 2.0 employs a conventional Grasp Pose Generator to efficiently produce 7-Dof grasp candidates. Candidates are assessed with an ensemble Graph Neural Network model which includes points within the gripper jaws (inside points) and surrounding contextual points (outside points). This improved representation boosts grasp detection performance over previous methods using the same generator. GtG 2.0 shows up to a 35% improvement in Average Precision on the GraspNet-1Billion benchmark compared to hypothesis-and-test and Graph Neural Network-based methods, ranking it among the top three frameworks. Experiments with a 3-Dof Delta Parallel robot and Kinect-v1 camera show a success rate of 91% and a clutter completion rate of 100%, demonstrating its flexibility and reliability.",2
+Q001,graph neural networks,2512.03061,Accumulated Local Effects and Graph Neural Networks for link prediction,"We investigate how Accumulated Local Effects (ALE), a model-agnostic explanation method, can be adapted to visualize the influence of node feature values in link prediction tasks using Graph Neural Networks (GNNs), specifically Graph Convolutional Networks and Graph Attention Networks. A key challenge addressed in this work is the complex interactions of nodes during message passing within GNN layers, complicating the direct application of ALE. Since a straightforward solution of modifying only one node at once substantially increases computation time, we propose an approximate method that mitigates this challenge. Our findings reveal that although the approximate method offers computational efficiency, the exact method yields more stable explanations, particularly when smaller data subsets are used. However, the explanations produced with the approximate method are not significantly different from the ones obtained with the exact method. Additionally, we analyze how varying parameters affect the accuracy of ALE estimation for both approaches.",2
+Q001,graph neural networks,2602.08619,Enhancing Genetic Algorithms with Graph Neural Networks: A Timetabling Case Study,"This paper investigates the impact of hybridizing a multi-modal Genetic Algorithm with a Graph Neural Network for timetabling optimization. The Graph Neural Network is designed to encapsulate general domain knowledge to improve schedule quality, while the Genetic Algorithm explores different regions of the search space and integrates the deep learning model as an enhancement operator to guide the solution search towards optimality. Initially, both components of the hybrid technique were designed, developed, and optimized independently to solve the tackled task. Multiple experiments were conducted on Staff Rostering, a well-known timetabling problem, to compare the proposed hybridization with the standalone optimized versions of the Genetic Algorithm and Graph Neural Network. The experimental results demonstrate that the proposed hybridization brings statistically significant improvements in both the time efficiency and solution quality metrics, compared to the standalone methods. To the best of our knowledge, this work proposes the first hybridization of a Genetic Algorithm with a Graph Neural Network for solving timetabling problems.",2
+Q002,methods for detecting cancer using medical images,0910.3348,"Algorithms for Image Analysis and Combination of Pattern Classifiers
+  with Application to Medical Diagnosis","  Medical Informatics and the application of modern signal processing in the
+assistance of the diagnostic process in medical imaging is one of the more
+recent and active research areas today. This thesis addresses a variety of
+issues related to the general problem of medical image analysis, specifically
+in mammography, and presents a series of algorithms and design approaches for
+all the intermediate levels of a modern system for computer-aided diagnosis
+(CAD). The diagnostic problem is analyzed with a systematic approach, first
+defining the imaging characteristics and features that are relevant to probable
+pathology in mammo-grams. Next, these features are quantified and fused into
+new, integrated radio-logical systems that exhibit embedded digital signal
+processing, in order to improve the final result and minimize the radiological
+dose for the patient. In a higher level, special algorithms are designed for
+detecting and encoding these clinically interest-ing imaging features, in order
+to be used as input to advanced pattern classifiers and machine learning
+models. Finally, these approaches are extended in multi-classifier models under
+the scope of Game Theory and optimum collective deci-sion, in order to produce
+efficient solutions for combining classifiers with minimum computational costs
+for advanced diagnostic systems. The material covered in this thesis is related
+to a total of 18 published papers, 6 in scientific journals and 12 in
+international conferences.
+",2
+Q002,methods for detecting cancer using medical images,1206.3777,An Analysis of the Methods Employed for Breast Cancer Diagnosis,"  Breast cancer research over the last decade has been tremendous. The ground
+breaking innovations and novel methods help in the early detection, in setting
+the stages of the therapy and in assessing the response of the patient to the
+treatment. The prediction of the recurrent cancer is also crucial for the
+survival of the patient. This paper studies various techniques used for the
+diagnosis of breast cancer. Different methods are explored for their merits and
+de-merits for the diagnosis of breast lesion. Some of the methods are yet
+unproven but the studies look very encouraging. It was found that the recent
+use of the combination of Artificial Neural Networks in most of the instances
+gives accurate results for the diagnosis of breast cancer and their use can
+also be extended to other diseases.
+",1
+Q002,methods for detecting cancer using medical images,1804.04595,"Assessment of Breast Cancer Histology using Densely Connected
+  Convolutional Networks","  Breast cancer is the most frequently diagnosed cancer and leading cause of
+cancer-related death among females worldwide. In this article, we investigate
+the applicability of densely connected convolutional neural networks to the
+problems of histology image classification and whole slide image segmentation
+in the area of computer-aided diagnoses for breast cancer. To this end, we
+study various approaches for transfer learning and apply them to the data set
+from the 2018 grand challenge on breast cancer histology images (BACH).
+",2
+Q002,methods for detecting cancer using medical images,1805.12067,"A Robust and Effective Approach Towards Accurate Metastasis Detection
+  and pN-stage Classification in Breast Cancer","  Predicting TNM stage is the major determinant of breast cancer prognosis and
+treatment. The essential part of TNM stage classification is whether the cancer
+has metastasized to the regional lymph nodes (N-stage). Pathologic N-stage
+(pN-stage) is commonly performed by pathologists detecting metastasis in
+histological slides. However, this diagnostic procedure is prone to
+misinterpretation and would normally require extensive time by pathologists
+because of the sheer volume of data that needs a thorough review. Automated
+detection of lymph node metastasis and pN-stage prediction has a great
+potential to reduce their workload and help the pathologist. Recent advances in
+convolutional neural networks (CNN) have shown significant improvements in
+histological slide analysis, but accuracy is not optimized because of the
+difficulty in the handling of gigapixel images. In this paper, we propose a
+robust method for metastasis detection and pN-stage classification in breast
+cancer from multiple gigapixel pathology images in an effective way. pN-stage
+is predicted by combining patch-level CNN based metastasis detector and
+slide-level lymph node classifier. The proposed framework achieves a
+state-of-the-art quadratic weighted kappa score of 0.9203 on the Camelyon17
+dataset, outperforming the previous winning method of the Camelyon17 challenge.
+",2
+Q002,methods for detecting cancer using medical images,1809.08534,"Predicting patient outcomes (TNBC) based on positions of cancer islands
+  and CD8+ T cells using machine learning approach","  Machine learning method is being applied in cancer research. In this work, we
+propose a method to classify the small patch of triple-negative breast cancer
+(TNBC) tumor and use the overall percentage of ""good"" patches as a marker to
+predict the prognosis, which is an automatic method of prognosis and could also
+be used for other cancers.
+",1
+Q002,methods for detecting cancer using medical images,1812.11006,"TOP-GAN: Label-Free Cancer Cell Classification Using Deep Learning with
+  a Small Training Set","  We propose a new deep learning approach for medical imaging that copes with
+the problem of a small training set, the main bottleneck of deep learning, and
+apply it for classification of healthy and cancer cells acquired by
+quantitative phase imaging. The proposed method, called transferring of
+pre-trained generative adversarial network (TOP-GAN), is a hybridization
+between transfer learning and generative adversarial networks (GANs). Healthy
+cells and cancer cells of different metastatic potential have been imaged by
+low-coherence off-axis holography. After the acquisition, the optical path
+delay maps of the cells have been extracted and directly used as an input to
+the deep networks. In order to cope with the small number of classified images,
+we have used GANs to train a large number of unclassified images from another
+cell type (sperm cells). After this preliminary training, and after
+transforming the last layer of the network with new ones, we have designed an
+automatic classifier for the correct cell type (healthy/primary
+cancer/metastatic cancer) with 90-99% accuracy, although small training sets of
+down to several images have been used. These results are better in comparison
+to other classic methods that aim at coping with the same problem of a small
+training set. We believe that our approach makes the combination of holographic
+microscopy and deep learning networks more accessible to the medical field by
+enabling a rapid, automatic and accurate classification in stain-free imaging
+flow cytometry. Furthermore, our approach is expected to be applicable to many
+other medical image classification tasks, suffering from a small training set.
+",2
+Q002,methods for detecting cancer using medical images,1912.06969,Breast Cancer Diagnosis by Higher-Order Probabilistic Perceptrons,"  A two-layer neural network model that systematically includes correlations
+among input variables to arbitrary order and is designed to implement Bayes
+inference has been adapted to classify breast cancer tumors as malignant or
+benign, assigning a probability for either outcome. The inputs to the network
+represent measured characteristics of cell nuclei imaged in Fine Needle
+Aspiration biopsies. The present machine-learning approach to diagnosis (known
+as HOPP, for higher-order probabilistic perceptron) is tested on the
+much-studied, open-access Breast Cancer Wisconsin (Diagnosis) Data Set of
+Wolberg et al. This set lists, for each tumor, measured physical parameters of
+the cell nuclei of each sample. The HOPP model can identify the key factors --
+input features and their combinations -- most relevant for reliable diagnosis.
+HOPP networks were trained on 90\% of the examples in the Wisconsin database,
+and tested on the remaining 10\%. Referred to ensembles of 300 networks,
+selected randomly for cross-validation, accuracy of classification for the test
+sets of up to 97\% was readily achieved, with standard deviation around 2\%,
+together with average Matthews correlation coefficients reaching 0.94
+indicating excellent predictive performance. Demonstrably, the HOPP is capable
+of matching the predictive power attained by other advanced machine-learning
+algorithms applied to this much-studied database, over several decades.
+Analysis shows that in this special problem, which is almost linearly
+separable, the effects of irreducible correlations among the measured features
+of the Wisconsin database are of relatively minor importance, as the Naive
+Bayes approximation can itself yield predictive accuracy approaching 95\%. The
+advantages of the HOPP algorithm will be more clearly revealed in application
+to more challenging machine-learning problems.
+",1
+Q002,methods for detecting cancer using medical images,2002.12392,Joint 2D-3D Breast Cancer Classification,"  Breast cancer is the malignant tumor that causes the highest number of cancer
+deaths in females. Digital mammograms (DM or 2D mammogram) and digital breast
+tomosynthesis (DBT or 3D mammogram) are the two types of mammography imagery
+that are used in clinical practice for breast cancer detection and diagnosis.
+Radiologists usually read both imaging modalities in combination; however,
+existing computer-aided diagnosis tools are designed using only one imaging
+modality. Inspired by clinical practice, we propose an innovative convolutional
+neural network (CNN) architecture for breast cancer classification, which uses
+both 2D and 3D mammograms, simultaneously. Our experiment shows that the
+proposed method significantly improves the performance of breast cancer
+classification. By assembling three CNN classifiers, the proposed model
+achieves 0.97 AUC, which is 34.72% higher than the methods using only one
+imaging modality.
+",2
+Q002,methods for detecting cancer using medical images,2003.08748,"Reduction of Surgical Risk Through the Evaluation of Medical Imaging
+  Diagnostics","  Computer aided diagnosis (CAD) of Breast Cancer (BRCA) images has been an
+active area of research in recent years. The main goals of this research is to
+develop reliable automatic methods for detecting and diagnosing different types
+of BRCA from diagnostic images. In this paper, we present a review of the state
+of the art CAD methods applied to magnetic resonance (MRI) and mammography
+images of BRCA patients. The review aims to provide an extensive introduction
+to different features extracted from BRCA images through texture and
+statistical analysis and to categorize deep learning frameworks and data
+structures capable of using metadata to aggregate relevant information to
+assist oncologists and radiologists. We divide the existing literature
+according to the imaging modality and into radiomics, machine learning, or
+combination of both. We also emphasize the difference between each modality and
+methods strengths and weaknesses and analyze their performance in detecting
+BRCA through a quantitative comparison. We compare the results of various
+approaches for implementing CAD systems for the detection of BRCA. Each
+approachs standard workflow components are reviewed and summary tables
+provided. We present an extensive literature review of radiomics feature
+extraction techniques and machine learning methods applied in BRCA diagnosis
+and detection, focusing on data preparation, data structures, pre processing
+and post processing strategies available in the literature. There is a growing
+interest on radiomic feature extraction and machine learning methods for BRCA
+detection through histopathological images, MRI and mammography images.
+However, there isnt a CAD method able to combine distinct data types to provide
+the best diagnostic results. Employing data fusion techniques to medical images
+and patient data could lead to improved detection and classification results.
+",2
+Q002,methods for detecting cancer using medical images,2005.11368,"Gleason Grading of Histology Prostate Images through Semantic
+  Segmentation via Residual U-Net","  Worldwide, prostate cancer is one of the main cancers affecting men. The
+final diagnosis of prostate cancer is based on the visual detection of Gleason
+patterns in prostate biopsy by pathologists. Computer-aided-diagnosis systems
+allow to delineate and classify the cancerous patterns in the tissue via
+computer-vision algorithms in order to support the physicians' task. The
+methodological core of this work is a U-Net convolutional neural network for
+image segmentation modified with residual blocks able to segment cancerous
+tissue according to the full Gleason system. This model outperforms other
+well-known architectures, and reaches a pixel-level Cohen's quadratic Kappa of
+0.52, at the level of previous image-level works in the literature, but
+providing also a detailed localisation of the patterns.
+",2
+Q002,methods for detecting cancer using medical images,2006.01693,"A Comprehensive Study of Data Augmentation Strategies for Prostate
+  Cancer Detection in Diffusion-weighted MRI using Convolutional Neural
+  Networks","  Data augmentation refers to a group of techniques whose goal is to battle
+limited amount of available data to improve model generalization and push
+sample distribution toward the true distribution. While different augmentation
+strategies and their combinations have been investigated for various computer
+vision tasks in the context of deep learning, a specific work in the domain of
+medical imaging is rare and to the best of our knowledge, there has been no
+dedicated work on exploring the effects of various augmentation methods on the
+performance of deep learning models in prostate cancer detection. In this work,
+we have statically applied five most frequently used augmentation techniques
+(random rotation, horizontal flip, vertical flip, random crop, and translation)
+to prostate Diffusion-weighted Magnetic Resonance Imaging training dataset of
+217 patients separately and evaluated the effect of each method on the accuracy
+of prostate cancer detection. The augmentation algorithms were applied
+independently to each data channel and a shallow as well as a deep
+Convolutional Neural Network (CNN) were trained on the five augmented sets
+separately. We used Area Under Receiver Operating Characteristic (ROC) curve
+(AUC) to evaluate the performance of the trained CNNs on a separate test set of
+95 patients, using a validation set of 102 patients for finetuning. The shallow
+network outperformed the deep network with the best 2D slice-based AUC of 0.85
+obtained by the rotation method.
+",2
+Q002,methods for detecting cancer using medical images,2010.03122,"A Fast and Effective Method of Macula Automatic Detection for Retina
+  Images","  Retina image processing is one of the crucial and popular topics of medical
+image processing. The macula fovea is responsible for sharp central vision,
+which is necessary for human behaviors where visual detail is of primary
+importance, such as reading, writing, driving, etc. This paper proposes a novel
+method to locate the macula through a series of morphological processing. On
+the premise of maintaining high accuracy, our approach is simpler and faster
+than others. Furthermore, for the hospital's real images, our method is also
+able to detect the macula robustly.
+",2
+Q002,methods for detecting cancer using medical images,2208.00583,"An Enhanced Deep Learning Technique for Prostate Cancer Identification
+  Based on MRI Scans","  Prostate cancer is the most dangerous cancer diagnosed in men worldwide.
+Prostate diagnosis has been affected by many factors, such as lesion
+complexity, observer visibility, and variability. Many techniques based on
+Magnetic Resonance Imaging (MRI) have been used for prostate cancer
+identification and classification in the last few decades. Developing these
+techniques is crucial and has a great medical effect because they improve the
+treatment benefits and the chance of patients' survival. A new technique that
+depends on MRI has been proposed to improve the diagnosis. This technique
+consists of two stages. First, the MRI images have been preprocessed to make
+the medical image more suitable for the detection step. Second, prostate cancer
+identification has been performed based on a pre-trained deep learning model,
+InceptionResNetV2, that has many advantages and achieves effective results. In
+this paper, the InceptionResNetV2 deep learning model used for this purpose has
+average accuracy equals to 89.20%, and the area under the curve (AUC) equals to
+93.6%. The experimental results of this proposed new deep learning technique
+represent promising and effective results compared to other previous
+techniques.
+",0
+Q002,methods for detecting cancer using medical images,2208.06833,"Shuffle Instances-based Vision Transformer for Pancreatic Cancer ROSE
+  Image Classification","  The rapid on-site evaluation (ROSE) technique can signifi-cantly accelerate
+the diagnosis of pancreatic cancer by im-mediately analyzing the fast-stained
+cytopathological images. Computer-aided diagnosis (CAD) can potentially address
+the shortage of pathologists in ROSE. However, the cancerous patterns vary
+significantly between different samples, making the CAD task extremely
+challenging. Besides, the ROSE images have complicated perturbations regarding
+color distribution, brightness, and contrast due to different staining
+qualities and various acquisition device types. To address these challenges, we
+proposed a shuffle instances-based Vision Transformer (SI-ViT) approach, which
+can reduce the perturbations and enhance the modeling among the instances. With
+the regrouped bags of shuffle instances and their bag-level soft labels, the
+approach utilizes a regression head to make the model focus on the cells rather
+than various perturbations. Simultaneously, combined with a classification
+head, the model can effectively identify the general distributive patterns
+among different instances. The results demonstrate significant improvements in
+the classification accuracy with more accurate attention regions, indicating
+that the diverse patterns of ROSE images are effectively extracted, and the
+complicated perturbations are significantly reduced. It also suggests that the
+SI-ViT has excellent potential in analyzing cytopathological images. The code
+and experimental results are available at https://github.com/sagizty/MIL-SI.
+",2
+Q002,methods for detecting cancer using medical images,2210.09021,"Histopathological Image Classification based on Self-Supervised Vision
+  Transformer and Weak Labels","  Whole Slide Image (WSI) analysis is a powerful method to facilitate the
+diagnosis of cancer in tissue samples. Automating this diagnosis poses various
+issues, most notably caused by the immense image resolution and limited
+annotations. WSIs commonly exhibit resolutions of 100Kx100K pixels. Annotating
+cancerous areas in WSIs on the pixel level is prohibitively labor-intensive and
+requires a high level of expert knowledge. Multiple instance learning (MIL)
+alleviates the need for expensive pixel-level annotations. In MIL, learning is
+performed on slide-level labels, in which a pathologist provides information
+about whether a slide includes cancerous tissue. Here, we propose Self-ViT-MIL,
+a novel approach for classifying and localizing cancerous areas based on
+slide-level annotations, eliminating the need for pixel-wise annotated training
+data. Self-ViT- MIL is pre-trained in a self-supervised setting to learn rich
+feature representation without relying on any labels. The recent Vision
+Transformer (ViT) architecture builds the feature extractor of Self-ViT-MIL.
+For localizing cancerous regions, a MIL aggregator with global attention is
+utilized. To the best of our knowledge, Self-ViT- MIL is the first approach to
+introduce self-supervised ViTs in MIL-based WSI analysis tasks. We showcase the
+effectiveness of our approach on the common Camelyon16 dataset. Self-ViT-MIL
+surpasses existing state-of-the-art MIL-based approaches in terms of accuracy
+and area under the curve (AUC).
+",2
+Q002,methods for detecting cancer using medical images,2307.06260,"UGCANet: A Unified Global Context-Aware Transformer-based Network with
+  Feature Alignment for Endoscopic Image Analysis","  Gastrointestinal endoscopy is a medical procedure that utilizes a flexible
+tube equipped with a camera and other instruments to examine the digestive
+tract. This minimally invasive technique allows for diagnosing and managing
+various gastrointestinal conditions, including inflammatory bowel disease,
+gastrointestinal bleeding, and colon cancer. The early detection and
+identification of lesions in the upper gastrointestinal tract and the
+identification of malignant polyps that may pose a risk of cancer development
+are critical components of gastrointestinal endoscopy's diagnostic and
+therapeutic applications. Therefore, enhancing the detection rates of
+gastrointestinal disorders can significantly improve a patient's prognosis by
+increasing the likelihood of timely medical intervention, which may prolong the
+patient's lifespan and improve overall health outcomes. This paper presents a
+novel Transformer-based deep neural network designed to perform multiple tasks
+simultaneously, thereby enabling accurate identification of both upper
+gastrointestinal tract lesions and colon polyps. Our approach proposes a unique
+global context-aware module and leverages the powerful MiT backbone, along with
+a feature alignment block, to enhance the network's representation capability.
+This novel design leads to a significant improvement in performance across
+various endoscopic diagnosis tasks. Extensive experiments demonstrate the
+superior performance of our method compared to other state-of-the-art
+approaches.
+",2
+Q002,methods for detecting cancer using medical images,2310.09981,"Class-Specific Data Augmentation: Bridging the Imbalance in Multiclass
+  Breast Cancer Classification","  Breast Cancer is the most common cancer among women, which is also visible in
+men, and accounts for more than 1 in 10 new cancer diagnoses each year. It is
+also the second most common cause of women who die from cancer. Hence, it
+necessitates early detection and tailored treatment. Early detection can
+provide appropriate and patient-based therapeutic schedules. Moreover, early
+detection can also provide the type of cyst. This paper employs class-level
+data augmentation, addressing the undersampled classes and raising their
+detection rate. This approach suggests two key components: class-level data
+augmentation on structure-preserving stain normalization techniques to
+hematoxylin and eosin-stained images and transformer-based ViTNet architecture
+via transfer learning for multiclass classification of breast cancer images.
+This merger enables categorizing breast cancer images with advanced image
+processing and deep learning as either benign or as one of four distinct
+malignant subtypes by focusing on class-level augmentation and catering to
+unique characteristics of each class with increasing precision of
+classification on undersampled classes, which leads to lower mortality rates
+associated with breast cancer. The paper aims to ease the duties of the medical
+specialist by operating multiclass classification and categorizing the image
+into benign or one of four different malignant types of breast cancers.
+",2
+Q002,methods for detecting cancer using medical images,2407.10251,"Deep Learning Algorithms for Early Diagnosis of Acute Lymphoblastic
+  Leukemia","  Acute lymphoblastic leukemia (ALL) is a form of blood cancer that affects the
+white blood cells. ALL constitutes approximately 25% of pediatric cancers.
+Early diagnosis and treatment of ALL are crucial for improving patient
+outcomes. The task of identifying immature leukemic blasts from normal cells
+under the microscope can prove challenging, since the images of a healthy and
+cancerous cell appear similar morphologically. In this study, we propose a
+binary image classification model to assist in the diagnostic process of ALL.
+Our model takes as input microscopic images of blood samples and outputs a
+binary prediction of whether the sample is normal or cancerous. Our dataset
+consists of 10661 images out of 118 subjects. Deep learning techniques on
+convolutional neural network architectures were used to achieve accurate
+classification results. Our proposed method achieved 94.3% accuracy and could
+be used as an assisting tool for hematologists trying to predict the likelihood
+of a patient developing ALL.
+",2
+Q002,methods for detecting cancer using medical images,2504.21517,"A Bayesian approach to sharing information on sensitivity of a
+  Multi-Cancer Early Detection test across and within tumour types and stages","  The Galleri (R) (GRAIL) multi-cancer early detection test measures
+circulating tumour DNA (ctDNA) to predict the presence of more than 50
+different cancers, from a blood test. If sensitivity of the test to detect
+early-stage cancers is high, using it as part of a screening programme may lead
+to better cancer outcomes, but available evidence indicates there is
+heterogeneity in sensitivity between cancer types and stages. We describe a
+framework for sharing evidence on test sensitivity between cancer types and/or
+stages, examining whether models with different sharing assumptions are
+supported by the evidence and considering how further data could be used to
+strengthen inference. Bayesian hierarchical models were fitted, and the impact
+of information sharing in increasing precision of the estimates of test
+sensitivity for different cancer types and stages was examined. Assumptions on
+sharing were informed by evidence from a review of the literature on the
+determinants of ctDNA shedding and its detection in a blood test. Support was
+strongest for the assumption that sensitivity can be shared only across stage 4
+for all cancer types. There was also support for the assumption that
+sensitivities can be shared across cancer types for each stage, if cancer types
+expected to have low sensitivity are excluded which increased precision of
+early-stage cancer sensitivity estimates and was considered the most
+appropriate model. High heterogeneity limited improvements in precision. For
+future research, elicitation of expert opinion could inform more realistic
+sharing assumptions.
+",2
+Q002,methods for detecting cancer using medical images,2506.09097,Detecting malignant dynamics on very few blood sample using signature coefficients,"Recent discoveries have suggested that the promising avenue of using circulating tumor DNA (ctDNA) levels in blood samples provides reasonable accuracy for cancer monitoring, with extremely low burden on the patient's side. It is known that the presence of ctDNA can result from various mechanisms leading to DNA release from cells, such as apoptosis, necrosis or active secretion. One key idea in recent cancer monitoring studies is that monitoring the dynamics of ctDNA levels might be sufficient for early multi-cancer detection. This interesting idea has been turned into commercial products, e.g. in the company named GRAIL.
+  In the present work, we propose to explore the use of Signature theory for detecting aggressive cancer tumors based on the analysis of blood samples. Our approach combines tools from continuous time Markov modelling for the dynamics of ctDNA levels in the blood, with Signature theory for building efficient testing procedures. Signature theory is a topic of growing interest in the Machine Learning community (see Chevyrev2016 and Fermanian2021), which is now recognised as a powerful feature extraction tool for irregularly sampled signals. The method proposed in the present paper is shown to correctly address the challenging problem of overcoming the inherent data scarsity due to the extremely small number of blood samples per patient. The relevance of our approach is illustrated with extensive numerical experiments that confirm the efficiency of the proposed pipeline.",0
+Q002,methods for detecting cancer using medical images,2507.15595,SegDT: A Diffusion Transformer-Based Segmentation Model for Medical Imaging,"Medical image segmentation is crucial for many healthcare tasks, including disease diagnosis and treatment planning. One key area is the segmentation of skin lesions, which is vital for diagnosing skin cancer and monitoring patients. In this context, this paper introduces SegDT, a new segmentation model based on diffusion transformer (DiT). SegDT is designed to work on low-cost hardware and incorporates Rectified Flow, which improves the generation quality at reduced inference steps and maintains the flexibility of standard diffusion models. Our method is evaluated on three benchmarking datasets and compared against several existing works, achieving state-of-the-art results while maintaining fast inference speeds. This makes the proposed model appealing for real-world medical applications. This work advances the performance and capabilities of deep learning models in medical image analysis, enabling faster, more accurate diagnostic tools for healthcare professionals. The code is made publicly available at \href{https://github.com/Bekhouche/SegDT}{GitHub}.",0
+Q002,methods for detecting cancer using medical images,2604.19350,Attend what matters: Leveraging vision foundational models for breast cancer classification using mammograms,"Vision Transformers $(\texttt{ViT})$ have become the architecture of choice for many computer vision tasks, yet their performance in computer-aided diagnostics remains limited. Focusing on breast cancer detection from mammograms, we identify two main causes for this shortfall. First, medical images are high-resolution with small abnormalities, leading to an excessive number of tokens and making it difficult for the softmax-based attention to localize and attend to relevant regions. Second, medical image classification is inherently fine-grained, with low inter-class and high intra-class variability, where standard cross-entropy training is insufficient. To overcome these challenges, we propose a framework with three key components: (1) Region of interest $(\texttt{RoI})$ based token reduction using an object detection model to guide attention; (2) contrastive learning between selected $\texttt{RoI}$ to enhance fine-grained discrimination through hard-negative based training; and (3) a $\texttt{DINOv2}$ pretrained $\texttt{ViT}$ that captures localization-aware, fine-grained features instead of global $\texttt{CLIP}$ representations. Experiments on public mammography datasets demonstrate that our method achieves superior performance over existing baselines, establishing its effectiveness and potential clinical utility for large-scale breast cancer screening. Our code is available for reproducibility here: https://aih-iitd.github.io/publications/attend-what-matters",2
+Q011,quantum entanglement entropy in black holes,0710.1377,"Entropy of Stars, Black Holes and Dark Energy","  When a star collapses to form a black hole, its entropy increases
+considerably, for a solar mass black hole, there is a factor of 1019 increase
+in entropy. This corresponds to a tremendous loss of information as only the
+total mass, angular momentum or electric charge (if any) of the matter going
+inside the horizon can be measured by an outside observer. Information about
+all other characteristics of the matter becomes irrelevant.
+",1
+Q011,quantum entanglement entropy in black holes,0802.3188,Black hole state degeneracy in Loop Quantum Gravity,"  The combinatorial problem of counting the black hole quantum states within
+the Isolated Horizon framework in Loop Quantum Gravity is analyzed. A
+qualitative understanding of the origin of the band structure shown by the
+degeneracy spectrum, which is responsible for the black hole entropy
+quantization, is reached. Even when motivated by simple considerations, this
+picture allows to obtain analytical expressions for the most relevant
+quantities associated to this effect.
+",1
+Q011,quantum entanglement entropy in black holes,1306.3796,"Quantum black hole entropy and the holomorphic prepotential of N=2
+  supergravity","  Supersymmetric terms in the effective action of N=2 supergravity in four
+dimensions are generically classified into chiral-superspace integrals and
+full-superspace integrals. For a theory of N=2 vector multiplets coupled to
+supergravity, a special class of couplings is given by chiral-superspace
+integrals that are governed by a holomorphic prepotential function. The quantum
+entropy of BPS black holes in such theories depends on the prepotential
+according to a known integral formula. We show, using techniques of
+localization, that a large class of full-superspace integrals in the effective
+action of N=2 supergravity do not contribute to the quantum entropy of BPS
+black holes at any level in the derivative expansion. Our work extends similar
+results for semi-classical supersymmetric black hole entropy, and goes towards
+providing an explanation of why the prepotential terms capture the exact
+microscopic quantum black hole entropy.
+",1
+Q011,quantum entanglement entropy in black holes,1501.03256,"Semiclassical corrections to black hole entropy and the generalized
+  uncertainty principle","  In this paper, employing the path integral method in the framework of a
+canonical description of a Schwarzschild black hole, we obtain the corrected
+inverse temperature and entropy of the black hole. The corrections are those
+coming from the quantum effects as well as from the Generalized Uncertainty
+Principle effects. Furthermore, an equivalence between the polymer quantization
+and the Generalized Uncertainty Principle description is shown provided the
+parameters characterizing these two descriptions are proportional.
+",1
+Q011,quantum entanglement entropy in black holes,1503.07312,"About the Incompleteness of the Semiclassical Picture in the
+  BH-Information Paradox and the Quantum Hair emerging from the Coupling of
+  Quantum Matter and Quantum Space-Time Degrees of Freedom","  We argue that the semiclassical analysis of the black hole information
+paradox is incomplete and has to be completed by an explicit entanglement of
+matter and quantum gravity degrees of freedom. We study in detail the
+evaporation process from beginning to end in the light of our extension and
+show that a pure initial state remains pure over the full evaporation process,
+including the final state which remains after the black hole has completely
+evaporated. By the same token we show how the quantum hair is encoded in the
+micro structure of the (final) gravitational state which is entangled with the
+(final) radiation state.
+",1
+Q011,quantum entanglement entropy in black holes,1608.00305,Entanglement entropy for free scalar fields in AdS,"  We compute entanglement entropy for free massive scalar fields in anti-de
+Sitter (AdS) space. The entangling surface is a minimal surface whose boundary
+is a sphere at the boundary of AdS. The entropy can be evaluated from the
+thermal free energy of the fields on a topological black hole by using the
+replica method. In odd-dimensional AdS, exact expressions of the Renyi entropy
+$S_n$ are obtained for arbitrary $n$. We also evaluate 1-loop corrections
+coming from the scalar fields to holographic entanglement entropy. Applying the
+results, we compute the leading difference of entanglement entropy between two
+holographic CFTs related by a renormalization group flow triggered by a double
+trace deformation. The difference is proportional to the shift of a central
+charge under the flow.
+",2
+Q011,quantum entanglement entropy in black holes,1612.09387,How are the degrees of freedom responsible for entropy in BTZ spacetime?,"  The entanglement entropy approach to study the dependence of entropy upon the
+location of degrees of freedom (dof) (near/far) from the horizon is discussed
+in this article. We try to understand the physical deviation of the area law
+for the excited states by incorporating the logarithmic and power law
+corrections. We show that the dof near the horizon gives contribution to the
+total entropy of the system in the ground state and away from the event horizon
+gives contribution to the excited state.
+",2
+Q011,quantum entanglement entropy in black holes,1702.04439,Black Hole Entropy from BMS Symmetry at the Horizon,"  Near the horizon, the obvious symmetries of a black hole spacetime---the
+horizon-preserving diffeomorphisms---are enhanced to a larger symmetry group
+with a BMS${}_3$ algebra. Using dimensional reduction and covariant phase space
+techniques, I investigate this augmented symmetry, and show that it is strong
+enough to determine the black hole entropy.
+",1
+Q011,quantum entanglement entropy in black holes,1909.13629,Information paradox and corrected thermodynamics for black holes,"  We generally consider that entropy and temperature of a spherically symmetric
+black hole are corrected by quantum effect. We calculate interior entropy
+variation of massless scalar field and compare it with corrected
+Bekenstein-Hawking entropy variation for the evaporating black hole. We find
+that the corrected ratio between them is greater than the uncorrected one. The
+information paradox is then discussed.
+",1
+Q011,quantum entanglement entropy in black holes,2002.05029,Entropy in general relativity: Kerr-AdS black hole,"  A general Hamiltonian approach to black hole thermodynamics is used to study
+entropy and conserved charges for Kerr-AdS solutions in general relativity.
+These thermodynamic variables are first consistently defined by choosing
+suitable boundary conditions, and then, they are shown to satisfy the first law
+of black hole dynamics
+",1
+Q011,quantum entanglement entropy in black holes,2003.05451,The ghost in the radiation: Robust encodings of the black hole interior,"  We reconsider the black hole firewall puzzle, emphasizing that quantum
+error-correction, computational complexity, and pseudorandomness are crucial
+concepts for understanding the black hole interior. We assume that the Hawking
+radiation emitted by an old black hole is pseudorandom, meaning that it cannot
+be distinguished from a perfectly thermal state by any efficient quantum
+computation acting on the radiation alone. We then infer the existence of a
+subspace of the radiation system which we interpret as an encoding of the black
+hole interior. This encoded interior is entangled with the late outgoing
+Hawking quanta emitted by the old black hole, and is inaccessible to
+computationally bounded observers who are outside the black hole. Specifically,
+efficient operations acting on the radiation, those with quantum computational
+complexity polynomial in the entropy of the remaining black hole, commute with
+a complete set of logical operators acting on the encoded interior, up to
+corrections which are exponentially small in the entropy. Thus, under our
+pseudorandomness assumption, the black hole interior is well protected from
+exterior observers as long as the remaining black hole is macroscopic. On the
+other hand, if the radiation is not pseudorandom, an exterior observer may be
+able to create a firewall by applying a polynomial-time quantum computation to
+the radiation.
+",1
+Q011,quantum entanglement entropy in black holes,2007.11508,"The information of the information paradox: On the quantum information
+  meaning of Page curve","  Page curve for the fine grained entropy of the black hole radiation is
+obtained once we include the effect of a non vanishing quantum Fisher
+information in the evaporation data. This quantum Fisher information scales as
+the inverse of the original black hole entropy. The modified fine grained
+entropy can be naturally related to a relative entanglement entropy with the
+quantum Fisher information defining the curvature at Page point.
+",2
+Q011,quantum entanglement entropy in black holes,2009.04161,Schwarzschild black hole states and entropies on a nice slice,"  In this work, we define a quantum gravity state on a nice slice. The nice
+slices provide a foliation of spacetime and avoid regions of strong curvature.
+We explore the topology and the geometry of the manifold obtained from a nice
+slice after evolving it in complex time. We compute its associated
+semiclassical thermodynamics entropy for a 4d Schwarzschild black hole. Despite
+the state one can define on a nice slice is not a global pure state,
+remarkably, we get a similar result to Hawking's calculation. In the end, we
+discuss the entanglement entropy of two segments on a nice slice and comment on
+the relation of this work with the replica wormhole calculation.
+",2
+Q011,quantum entanglement entropy in black holes,2101.06867,"Islands and Page curves of Reissner-Nordstr\""om black holes","  We apply the recently proposed quantum extremal surface construction to
+calculate the Page curve of the eternal Reissner-Nordstr\""om black holes in
+four dimensions ignoring the backreaction and the greybody factor. Without the
+island, the entropy of Hawking radiation grows linearly with time, which
+results in the information paradox for the eternal black holes. By extremizing
+the generalized entropy that allows the contributions from the island, we find
+that the island extends to the outside the horizon of the Reissner-Nordstr\""om
+black hole. When taking the effect of the islands into account, it is shown
+that the entanglement entropy of Hawking radiation at late times for a given
+region far from the black hole horizon reproduces the Bekenstein-Hawking
+entropy of the Reissner-Nordstr\""om black hole with an additional term
+representing the effect of the matter fields. The result is consistent with the
+finiteness of the entanglement entropy for the radiation from an eternal black
+hole. This facilitates to address the black hole information paradox issue in
+the current case under the above-mentioned approximations.
+",2
+Q011,quantum entanglement entropy in black holes,2207.12477,Black Hole Entropy from Quantum Mechanics,"  We provide evidence for a holographic duality between superconformal quantum
+mechanics on the moduli space of Yang-Mills instantons and M-theory in certain
+asymptotically $AdS_{7}\times S^{4}$ backgrounds with a plane-wave boundary
+metric. We show that the gravitational background admits a supersymmetric black
+hole solution whose entropy is precisely reproduced by the superconformal index
+of the dual quantum mechanics.
+",1
+Q011,quantum entanglement entropy in black holes,2302.12810,Reflected Entropy for Communicating Black Holes II: Planck Braneworlds,"  We obtain the reflected entropy for bipartite mixed state configurations of
+two adjacent and disjoint subsystems at a finite temperature in finite-sized
+non-gravitating reservoirs described by $CFT_2$s each coupled to two quantum
+dots at their boundaries in the large central charge limit through a replica
+technique. These field theory results are substantiated through a holographic
+computation involving the entanglement wedge cross section in the dual bulk BTZ
+black hole geometry truncated by two Planck branes. The two Planck branes are
+the holographic duals of the quantum dots described by $AdS_2$ slices with JT
+black holes. Our results reproduce the holographic duality between the
+reflected entropy and the bulk entanglement wedge cross section in the context
+of the $AdS_3/CFT_2$ correspondence. Subsequently we analyze the behaviour of
+the holographic Markov gap between the reflected entropy and the mutual
+information for different scenarios involving the subsystem sizes and time.
+",2
+Q011,quantum entanglement entropy in black holes,2303.12708,Rainbow Oppenheimer-Snyder collapse and the entanglement entropy production,"The dust ball collapse is studied in the context of the ""rainbow metric"" approach (where the matter content is supplemented with a scalar field perturbation) to the Oppenheimer-Snyder collapse scenario within the framework of loop quantum cosmology. The global spacetime structure is determined for this scenario and subsequently used to evaluate the entanglement entropy via a slight adaptation of existing formulas. The resulting model is shown to qualitatively resemble the Reissner-Nordstr\""om black hole spacetime, in particular, it still contains singularities, which allows us to define the entropy only for portions of the null infinity. The consequence of these results for the black hole information loss paradox is discussed. Furthermore, the results in presence of the scalar field are used in discussion regarding the viability of the selected scenario, in particular, the assumption of stationarity used to determine the exterior metric.",2
+Q011,quantum entanglement entropy in black holes,2504.14247,"Quantization of Black Hole Entropy for Black Holes in Subtracted
+  Geometry","  We carefully examine the exact analytic spectrum of quasinormal modes of
+general black holes in the so-called subtracted geometry of maximally
+supersymmetric supergravity. These black holes have the same area and surface
+gravity at both the outer and inner horizons as the original asymptotically
+flat black holes. We proceed to explore the relationship with conformal field
+theories that describe horizon physics of these black holes. As a consequence,
+we show that the horizon area of these black holes is quantized in units of
+8{\pi}l_{Planck}^2.
+",1
+Q011,quantum entanglement entropy in black holes,gr-qc/0405084,"Severe constraints on Loop-Quantum-Gravity energy-momentum dispersion
+  relation from black-hole area-entropy law","  We explore a possible connection between two aspects of Loop Quantum Gravity
+which have been extensively studied in the recent literature: the black-hole
+area-entropy law and the energy-momentum dispersion relation. We observe that
+the original Bekenstein argument for the area-entropy law implicitly requires
+information on the energy-momentum dispersion relation. Recent results show
+that in first approximation black-hole entropy in Loop Quantum Gravity depends
+linearly on the area, with small correction terms which have logarithmic or
+inverse-power dependence on the area. Preliminary studies of the
+Loop-Quantum-Gravity dispersion relation reported some evidence of the presence
+of terms that depend linearly on the Planck length, but we observe that this
+possibility is excluded since it would require, for consistency, a contribution
+to black-hole entropy going like the square root of the area.
+",1
+Q011,quantum entanglement entropy in black holes,gr-qc/9703039,A Quantum Material Model of Static Schwarzschild Black Holes,"  A quantum-mechanical prescription of static Einstein field equation is
+proposed in order to construct the matter-metric eigen-states in the interior
+of a static Schwarzschild black hole where the signature of space-time is
+chosen as (--++). The spectrum of the quantum states is identified to be the
+integral multiples of the surface gravity. A statistical explanation of black
+hole entropy is given and a quantisation rule for the masses of Schwarzschild
+black holes is proposed.
+",1
+Q011,quantum entanglement entropy in black holes,gr-qc/9808038,Quantum Black Hole,"  Creation of a black hole in quantum cosmology is the third way of black hole
+formation. In contrast to the gravitational collapse from a massive body in
+astrophysics or from the quantum fluctuation of matter fields in the very early
+universe, in quantum cosmology scenario the black hole is essentially created
+from nothing. The black hole originates from a constrained gravitational
+instanton. The probability of creation for all kinds of single black holes in
+the Kerr- Newman-de Sitter family, at the semi-classical level, is the
+exponential of the total entropy of the universe, or one quarter of the sum of
+both the black hole and the cosmological horizon areas. The de Sitter spacetime
+is the most probable evolution at the Planckian era.
+",0
+Q013,how galaxies form and evolve,0704.1448,Structures in the Universe and Origin of Galaxies,"  The analysis of images (of obtained in various ranges of the lengths of
+waves) of luminous objects in the Universe by means of a method of multilevel
+dynamic contrasting led author to the conclusions: a) the structures of all
+observable galaxies represents a complicated constructions which have the
+tendency to self-similarity and made of separate (basic) blocks, which are a
+coaxially tubular structures and a cartwheel-like structures; b) the majority
+of observable objects in the Universe are luminous butt-ends of almost
+invisible (of almost completely transparent) of filamentary formations which
+structures are seen only near to their luminous butt-ends; c) the result of
+analysis of images of cosmic objects show the structure of many pairs of
+cooperating galaxies point to opportunity of their formation at butt-ends
+generated in a place of break of the similar filament; d) the interacting
+galaxies (M 81 and M 82) show they are butt-ends of sawed off of two branches
+of a treelike filament and their interaction is coming out through this
+filament; e) as our Universe is in dynamics the processes of formation of
+stars, galaxies and their congestions can go presently by means of a fracturing
+of filaments with a corresponding diameters and of the time for their such
+formation is necessary much less, than along existing standard model.
+",2
+Q013,how galaxies form and evolve,0707.0158,Distinguishing Active Galactic Nuclei and Star Formation,"  Using the large emission line galaxy sample from the Sloan Digital Sky Survey
+we show that Star forming galaxies, Seyferts, and low-ionization nuclear
+emission-line regions (LINERs) form clearly separated branches on the standard
+optical diagnostic diagrams. We derive a new empirical classification scheme
+which cleanly separates these emission-line galaxies, using strong optical
+emission lines. Using this classification we identify a few distinguishing host
+galaxy properties of each class, which, along with the emission line analysis,
+suggest continuous evolution from one class to another. As a final note, we
+introduce models of both Starforming galaxies and AGN narrow line regions which
+can explain the distribution of galaxies on standard emission line ratio
+diagrams, and possibly suggest new diagnostics across the emission spectrum.
+",1
+Q013,how galaxies form and evolve,0807.0138,"Evolution of Star-forming Galaxies seen from Lyman Break Galaxies at
+  $z\sim5$","  Properties of Lyman Break Galaxies at $z\sim5$ are presented and are compared
+with those at $z\sim 2-3$ LBGs to see evolution of LBGs from $z\sim5$ to $z
+\sim3-2$. The LBGs at $z\sim5$ are tend to have smaller stellar masses, but
+they may show large star formation rates and specific star formation rates.
+",2
+Q013,how galaxies form and evolve,0810.3190,The Spatial Evolution of Stellar Structures in the LMC,"  We present an analysis of the spatial distribution of various stellar
+populations within the Large Magellanic Cloud. We combine mid-infrared selected
+young stellar objects, optically selected samples with mean ages between ~9 and
+~1000 Myr, and existing stellar cluster catalogues to investigate how stellar
+structures form and evolve within the LMC. For the analysis we use Fractured
+Minimum Spanning Trees, the statistical Q parameter, and the two-point
+correlation function. Restricting our analysis to young massive (OB) stars we
+confirm our results obtained for M33, namely that the luminosity function of
+the groups is well described by a power-law with index -2, and that there is no
+characteristic length-scale of star-forming regions. We find that stars in the
+LMC are born with a large amount of substructure, consistent with a 2D fractal
+distribution with dimension ~1.8 and evolve towards a uniform distribution on a
+timescale of ~175 Myr. This is comparable to the crossing time of the galaxy
+and we suggest that stellar structure, regardless of spatial scale, will be
+eliminated in a crossing time. This may explain the smooth distribution of
+stars in massive/dense young clusters in the Galaxy, while other, less massive,
+clusters still display large amounts of structure at similar ages. By comparing
+the stellar and star cluster distributions and evolving timescales, we show
+that infant mortality of clusters (or 'popping clusters') have a negligible
+influence on galactic structure. Finally, we quantify the influence of the
+elongation, differential extinction, and contamination of a population on the
+measured Q value.
+",1
+Q013,how galaxies form and evolve,0901.1665,"The role of E+A and post-starburst galaxies - I. Models and model
+  results","  Different compositions of galaxy types in the field in comparison to galaxy
+clusters as described by the morphology-density relation in the local universe
+is interpreted as a result of transformation processes from late- to early-type
+galaxies. This interpretation is supported by the Butcher-Oemler effect.
+  We investigate E+A galaxies as an intermediate state between late-type
+galaxies in low density environments and early-type galaxies in high density
+environment to constrain the possible transformation processes. For this
+purpose we model a grid of post-starburst galaxies by inducing a burst and/or a
+halting of star formation on the normal evolution of spiral galaxies with our
+galaxy evolution code GALEV.
+  From our models we find that the common E+A criteria exclude a significant
+number of post-starburst galaxies and propose that comparing their spectral
+energy distributions leads to a more sufficient method to investigate
+post-starbust galaxies. We predict that a higher number of E+A galaxies in the
+early universe can not be ascribed solely to a higher number of starburst, but
+is a result of a lower metallicity and a higher burst strength due to more gas
+content of the galaxies in the early universe. We find that even galaxies with
+a normal evolution without a starburst have a Hdelta-strong phase at early
+galaxy ages.
+",2
+Q013,how galaxies form and evolve,0903.0634,"Active Galaxies in the Sloan Digital Sky Survey II: galaxy and activity
+  evolution","  In this second paper of a series of papers based on the FIRST and SDSS
+surveys we investigate the evolution of galaxy morphology and nuclear activity
+in the look-back time of the SDSS (~2 Gyrs) for a sample of ~150000 galaxies in
+the local universe. We demonstrate an evolution in the strength of the radio
+power and the spectroscopic emission-lines typical of AGN, as well as in the
+morphology of their hosts. Such evolution appears more substantial for less
+luminous systems, and is possibly the low-redshift tail of the downsizing in
+star-formation, AGN activity and supermassive black hole build-up observed in
+higher redshift surveys.This suggests that the differences in intrinsic
+properties of galaxies along the Hubble Sequence may arise from the difference
+in the depth of their potential wells which leads to different evolutionary
+paths because of different timescales for gas infall. This primordial infall
+and the following secular evolution mediated by bar and density wave
+instabilities may bring galaxies of different mass to have the different
+activity levels and morphological features in the local universe shown in this
+study. In agreement with such a hypothesis, we find that star-formation as
+traced by radio emission is progressively more centrally concentrated in more
+evolved star-forming galaxies and we show that the environment in which a
+galaxy resides plays a lesser role in shaping the features and activity for the
+majority of systems.
+",2
+Q013,how galaxies form and evolve,1105.2844,"Pairwise dwarf galaxy formation and galaxy downsizing: some clues from
+  extremely metal-poor Blue Compact Dwarf galaxies","  Some of the extremely metal-poor Blue Compact Dwarf galaxies (XBCDs) in the
+nearby universe form galaxy pairs with remarkably similar properties. This fact
+points to an intriguing degree of synchronicity in the formation history of
+these binary dwarf galaxies and raises the question as to whether some of them
+form and co-evolve pairwise (or in loose galaxy groups), experiencing recurrent
+mild interactions and minor tidally induced star formation episodes throughout
+their evolution. We argue that this hypothesis offers a promising conceptual
+framework for the exploration of the retarded previous evolution and recent
+dominant formation phase of XBCDs.
+",2
+Q013,how galaxies form and evolve,1206.5507,Cosmological pseudobulge formation,"  Bulges can be classified into classical and pseudobulges; the former are
+considered to be end products of galactic mergers and the latter to form via
+secular evolution of galactic disks. Observationally, bulges of disk galaxies
+are mostly pseudobulges, including the Milky Way's. We here show, by using
+self-consistent cosmological simulations of galaxy formation, that the
+formation of pseudobulges of Milky Way-sized disk galaxies has mostly completed
+before disk formation; thus the main channel of pseudobulge formation is not
+secular evolution of disks. Our pseudobulges form by rapid gas supply at
+high-redshift and their progenitors would be observed as high-redshift disks.
+",2
+Q013,how galaxies form and evolve,1208.0315,"The Schmidt-Kennicutt Law of Matched-Age Star Forming Regions; Pa-alpha
+  Observations of the Early-Phase Interacting Galaxy Taffy I","  In order to test a recent hypothesis that the dispersion in the
+Schmidt-Kennicutt law arises from variations in the evolutionary stage of star
+forming molecular clouds, we compared molecular gas and recent star formation
+in an early-phase merger galaxy pair, Taffy I (UGC\ 12915/UGC\ 12914, VV\ 254)
+which went through a direct collision 20 Myr ago and whose star forming regions
+are expected to have similar ages. Narrow-band Pa-alpha image is obtained using
+the ANIR near-infrared camera on the mini-TAO 1m telescope. The image enables
+us to derive accurate star formation rates within the galaxy directly. The
+total star formation rate, 22.2 M_sun/yr, was found to be much higher than
+previous estimates. Ages of individual star forming blobs estimated from
+equivalent widths indicate that most star forming regions are ~7 Myr old,
+except for a giant HII region at the bridge which is much younger. Comparison
+between star formation rates and molecular gas masses for the regions with the
+same age exhibits a surprisingly tight correlation, a slope of unity, and star
+formation efficiencies comparable to those of starburst galaxies. These results
+suggest that Taffy I has just evolved into a starburst system after the
+collision, and the star forming sites are at a similar stage in their evolution
+from natal molecular clouds except for the bridge region. The tight
+Schmidt-Kennicutt law supports the scenario that dispersion in the star
+formation law is in large part due to differences in evolutionary stage of star
+forming regions.
+",1
+Q013,how galaxies form and evolve,1810.02379,"Evolved stars in the Local Group galaxies - III. AGB and RSG stars in
+  Sextans A","  We study the evolved stellar population of the galaxy Sextans A. This galaxy
+is one of the lowest metallicity dwarfs in which variable asymptotic giant
+branch stars have been detected, suggesting that little metal enrichment took
+place during the past history. The analysis consists in the characterization of
+a sample of evolved stars, based on evolutionary tracks of asymptotic giant
+branch and red super giant stars, which include the description of dust
+formation in their winds. Use of mid-infrared and near-infrared data allowed us
+to identify carbon-rich sources, stars undergoing hot bottom burning and red
+super giants. The dust production rate, estimated as $6\times 10^{-7}
+M_{\odot}/$yr, is dominated by $\sim 10$ carbon stars, with a small
+contribution of higher mass M-stars, of the order of $4\times 10^{-8}
+M_{\odot}/$yr. The importance of this study to understand how dust production
+works in metal-poor environments is also evaluated.
+",1
+Q013,how galaxies form and evolve,1905.02023,"An evolving and mass dependent ${\rm \sigma_{\text{sSFR}}}$-${\rm
+  M_{\star}}$ relation for galaxies","  The scatter (${\rm\sigma_{\text{sSFR}}}$) of the specific star formation
+rates (sSFRs) of galaxies is a measure of the diversity in their star formation
+histories (SFHs) at a given mass. In this paper we employ the EAGLE simulations
+to study the dependence of the ${\rm \sigma_{\text{sSFR}}}$ of galaxies on
+stellar mass (${\rm M_{\star}}$) through the ${\rm \sigma_{\text{sSFR}}}$-${\rm
+M_{\star}}$ relation in $ {\rm z \sim 0-4}$. We find that the relation evolves
+with time, with the dispersion depending on both stellar mass and redshift. The
+models point to an evolving U-shape form for the ${\rm
+\sigma_{\text{sSFR}}}$-${\rm M_{\star}}$ relation with the scatter being
+minimal at a characteristic mass $M^{\star}$ of ${\rm 10^{9.5}}$ ${\rm
+M_{\odot}}$ and increasing both at lower and higher masses. This implication is
+that the diversity of SFHs increases towards both at the low- and high-mass
+ends. We find that active galactic nuclei feedback is important for increasing
+the ${\rm \sigma_{\text{sSFR}}}$ for high mass objects. On the other hand, we
+suggest that SNe feedback increases the ${\rm \sigma_{\text{sSFR}}}$ of
+galaxies at the low-mass end. We also find that excluding galaxies that have
+experienced recent mergers does not significantly affect the ${\rm
+\sigma_{\text{sSFR}}}$-${\rm M_{\star}}$ relation. Furthermore, we employ the
+combination of the EAGLE simulations with the radiative transfer code SKIRT to
+evaluate the effect of SFR/stellar mass diagnostics in the ${\rm
+\sigma_{\text{sSFR}}}$-${\rm M_{\star}}$ relation and find that the ${\rm
+SFR/M_{\star}}$ methodologies (e.g. SED fitting, UV+IR, UV+IRX-$\beta$) widely
+used in the literature to obtain intrinsic properties of galaxies have a large
+effect on the derived shape and normalization of the ${\rm
+\sigma_{\text{sSFR}}}$-${\rm M_{\star}}$ relation.
+",2
+Q013,how galaxies form and evolve,2306.14760,"The temporal evolution of gas accretion onto the discs of simulated
+  Milky Way-mass galaxies","  In the standard model of structure formation, galaxies form in the centre of
+dark matter haloes that develop as a result of inhomogeneities in the
+primordial mass distribution of the Universe. Afterwards, galaxies grow by
+means of continuous accretion of gaseous material stemming from the
+intergalactic medium, both in diffuse form and through collisions with other
+systems. After an initial period of violent growth, the gas settles into a
+rotationally-supported structure where stars are born, giving birth to the
+stellar disc. The accretion of gaseous material onto the disc plays a
+fundamental role in its evolution as it can change its dynamical and
+morphological properties, generating gas flows within the disc. In this work,
+we use 30 galaxies from the Auriga Project, a set of cosmological
+magnetohydrodynamical simulations of disc galaxies, to study the temporal
+dependence of the gas accretion rates, focusing on the inflowing and outflowing
+fluxes.
+",2
+Q013,how galaxies form and evolve,2503.04925,The mass-metallicity relation at z>3 down to M_*= 10^4 M_Sun. A local perspective using the metallicity distribution of RR Lyrae stars,"The mass-metallicity relation (MZR) is a fundamental scale law of galaxies. It is observed to evolve with redshift in unresolved galaxies up to z>6. However, observational constraints limits our view at such early epochs to galaxies with M_* >= 10^7 M_Sun. On the other hand, in the local Universe the MZR can be traced down to the faintest end of the galaxy luminosity function (M_*= 10^2 M_Sun) but we have access only to its present-day realization. We propose to use RR Lyrae stars to get the mean metallicity of local dwarf galaxies at the early epoch in which these variable stars were formed (z>~3), opening a new window on the evolution of the MZR across cosmic times down to the lowest mass. We use available data for a sample of Milky Way satellites to show that indeed the evolution of the MZR from the epoch of the formation of RR Lyrae to the present day can be traced with this approach, with results broadly compatible with those inferred from high z galaxies from nebular emission lines. The limitations of the approach as well as possible ways to refine the analysis are also briefly discussed.",1
+Q013,how galaxies form and evolve,2604.04303,The Identification of Asymmetric Barred Galaxies in Illustris TNG-50,"Most barred galaxies exhibit symmetric structures. However, recent studies have shown that a subset of barred galaxies exhibit lopsided morphologies. To quantify their occurrence and investigate their physical origins, we analyze barred galaxies in the IllustrisTNG TNG50 simulation. We select 519 clearly barred galaxies in their stellar mass maps out of 770 barred galaxies from the TNG50-1 catalog. We classify the bar morphologies into four subgroups - `Lopsided', `Perturbed', `Symmetric', and `Indeterminate' - and perform a comparative analysis of their physical properties. We find that galaxies hosting asymmetric bars (`Lopsided' and `Perturbed') tend to have higher gas densities around the bar region, enhanced star formation activity, and more recent bar-formation epochs than galaxies with symmetric bars. However, the factor that most consistently distinguishes the four subgroups is the stellar mass distribution of the host galaxy, and there appears to be no physical correlation with bar size. These findings suggest that asymmetric bars form preferentially in less massive galaxies and may evolve into symmetric bars over time through secular processes. However, this conclusion should be considered with caution, as the fraction of asymmetric bars in the TNG50 simulation is systematically higher than that observed in the local universe.",2
+Q013,how galaxies form and evolve,2607.00982,Bar-driven secular evolution largely complete in a disk galaxy 7.6 billion years ago,"Disk galaxies like the Milky Way are thought to evolve through internal dynamical processes: the stellar disk forms a bar, the bar drives gas inflow that builds a nuclear stellar disk, and the bar vertically thickens into an X-shaped bulge. Although this evolution is thought to be slow, completing only at late cosmic times, its timing remains poorly constrained. We report James Webb Space Telescope imaging of a galaxy at redshift 0.92 (7.6 billion years ago) that already hosts an X-shaped bulge, a nuclear stellar disk, and an extended stellar disk, with geometry and inferred bar size indistinguishable from those of present-day barred galaxies. The X-shaped bulge marks the completion of the major phase of bar-driven evolution when the Universe was less than half its current age.",1
+Q013,how galaxies form and evolve,astro-ph/0105492,Dynamics and the Origin of Low-Mass Galaxies in the Virgo Cluster,"  Early-type dwarfs are the most common galaxy in the local universe, yet their
+origin and evolution remain a mystery. Various cosmological scenarios predict
+that dwarf-like galaxies in dense areas are the first to form and hence should
+be the oldest stellar systems in clusters. By using radial velocities of
+early-type dwarfs in the Virgo cluster we demonstrate that these galaxies are
+not an old cluster population but have signatures of production from the infall
+of field galaxies. Evidence of this includes the combined large dispersions and
+sub-structure in spatial and kinematic distributions for Virgo early-type
+dwarfs, and a velocity dispersion ratio with giant ellipticals expected for
+virialized and accreted populations. We also argue that these galaxies cannot
+originate from accreted field dwarfs, but must have physically evolved from a
+precursor population, of different morphology, that fell into Virgo some time
+in the past.
+",2
+Q013,how galaxies form and evolve,astro-ph/0107524,Backwards galaxy formation with only a few parameters,"  We present a simple phenomenological model of star formation in galaxies that
+describes the process with a set of a few parameters. The star formation
+efficiency and the fraction of gas and metals ejected in outflows are assumed
+to be the main drivers of star formation. The Tully-Fisher and the
+Faber-Jackson relations in different passbands are used as constraints in the
+analysis of disk and elliptical galaxies, respectively. We find that a steep
+correlation between efficiency and maximum rotation velocity is needed in disk
+systems, whereas elliptical galaxies can be explained by a high star formation
+efficiency, uncorrelated with the central velocity dispersion. Gas outflows are
+not important in disks, whereas a correlation of outflows with galaxy mass must
+be invoked in early-type galaxies to account for the observed colors.
+",2
+Q013,how galaxies form and evolve,astro-ph/0302492,"Dwarfs after Mergers? The case of NGC520, NGC772, Arp141, NGC3226/7,
+  NGC3656 and Arp299","  We present results from a survey of dwarf galaxy candidates in the vicinity
+of strongly interacting galaxies. The goal of the survey was a test of the
+hypothesis that massive condensations of stars and HI in tidal tails of large
+interacting galaxies may be a significant source of independent,
+self-gravitating dwarf galaxies. These so called tidal dwarf galaxies (TDG) can
+be expected to resemble the blue luminous knots found in tidal tails, but also
+might appear as redder, evolved systems if formed much before they are being
+observed. For the present study, a homogeneous subsample of 6 fields was
+selected from the catalog of extended objects in fields around 15 strongly
+interacting galaxies by Deeg et al. (1998). Criteria for the subsample were:
+similar redshifts of the central interacting galaxies, and photometric
+completeness of the extended objects in V and R. The number density of these
+TDG candidates was compared with expected background galaxy densities. Within
+the statistical errors, background galaxies account for most, if not all of the
+extended objects. There is no evidence for a substantial locally formed dwarf
+galaxy population. Thus, we conclude that field galaxy-galaxy interactions are
+likely to result in the formation of only a few long-lived TDG.
+",1
+Q013,how galaxies form and evolve,astro-ph/0304255,"Matching the Cosmic Star Formation History to the Local Galaxy
+  Population","  In this review I will describe a number of recent advances in extragalactic
+astronomy. First of all I will describe our current best estimates of the star
+formation history of the Universe. Then I will describe measurements of local
+galaxies and their stellar populations, concentrating on measurements of the
+luminosity functions and stellar population compositions of the different kinds
+of galaxies. Finally, I will investigate the relationship between these two
+sets of results. The ultimate aim is to tell at what stage in the history of
+the Universe the different stars seen in the local galaxies formed. At present
+much is known but there are significant uncertainties and I will highlight some
+prospects for the future.
+",1
+Q013,how galaxies form and evolve,astro-ph/0402062,E+A Galaxies and the Formation of Early Type Galaxies at z~0,"  We present HST/WFPC2 observations of the five bluest E+A galaxies (z~0.1) in
+the Zabludoff et al. sample to study whether their detailed morphologies are
+consistent with late-to-early type evolution and to determine what drives that
+evolution. The morphologies of four galaxies are disturbed, indicating that a
+galaxy-galaxy merger is at least one mechanism that leads to the E+A phase.
+Two-dimensional image fitting shows that the E+As are generally bulge-dominated
+systems, even though at least two E+As may have underlying disks. In the
+Fundamental Plane, E+As stand apart from the E/S0s mainly due to their high
+effective surface brightness. Fading of the young stellar population and the
+corresponding increase in their effective radii will cause these galaxies to
+migrate toward the locus of E/S0s. E+As have profiles qualitatively like those
+of normal power-law early-type galaxies, but have higher surface brightnesses.
+This result provides the first direct evidence supporting the hypothesis that
+power-law ellipticals form via gas-rich mergers. In total, at least four E+As
+are morphologically consistent with early-type galaxies. We detect compact
+sources, possibly young star clusters, associated with the galaxies. These
+sources are much brighter (M_R ~ -13) than Galactic globular clusters, have
+luminosities consistent with the brightest clusters in nearby starburst
+galaxies, and have blue colors consistent with the ages estimated from the E+A
+galaxy spectra (several 10^8 yr). Further study of such young star cluster
+candidates might provide the elusive chronometer needed to break the
+age/burst-strength degeneracy for these post-merger galaxies.
+",2
+Q013,how galaxies form and evolve,astro-ph/0512391,"The evolution of the star formation activity in galaxies and its
+  dependence on environment","  We study how the proportion of star-forming galaxies evolves between z=0.8
+and z=0 as a function of galaxy environment, using the [OII] line in emission
+as a signature of ongoing star formation. Our high-z dataset comprises 16
+clusters, 10 groups and another 250 galaxies in poorer groups and the field at
+z=0.4-0.8 from the ESO Distant Cluster Survey, plus another 9 massive clusters
+at similar redshifts. As a local comparison, we use samples of galaxy systems
+selected from the Sloan Digital Sky Survey at 0.04< z < 0.08. At high-z most
+systems follow a broad anticorrelation between the fraction of star-forming
+galaxies and the system velocity dispersion. At face value, this suggests that
+at z=0.4-0.8 the mass of the system largely determines the proportion of
+galaxies with ongoing star formation. At these redshifts the strength of star
+formation (as measured by the [OII] equivalent width) in star-forming galaxies
+is also found to vary systematically with environment. Sloan clusters have much
+lower fractions of star-forming galaxies than clusters at z=0.4-0.8 and, in
+contrast with the distant clusters, show a plateau for velocity dispersions $
+\ge 550 km s^-1$, where the fraction of galaxies with [OII] emission does not
+vary systematically with velocity dispersion. We quantify the evolution of the
+proportion of star-forming galaxies as a function of the system velocity
+dispersion and find it is strongest in intermediate-mass systems (sigma ~
+500-600 km s^-1 at z=0). To understand the origin of the observed trends, we
+use the Press-Schechter formalism and the Millennium Simulation and show that
+galaxy star formation histories may be closely related to the growth history of
+clusters and groups. We propose a scheme that is able to account for the
+observed relations between the star-forming fraction and \sigma [abridged].
+",2
+Q013,how galaxies form and evolve,astro-ph/0610190,"Determining the evolutionary history of galaxies by astrocladistics :
+  some results on close galaxies","  Astrocladistics, a methodology borrowed from biology, is an objective way of
+understanding galaxy diversity through evolutionary relationships. It is based
+on the evolution of all the available parameters describing galaxies and thus
+integrates the complexity of these objects. Through the formalization of the
+concepts around galaxy formation and evolution, and the identification of the
+processes of diversification (build up, secular evolution, interaction,
+merging/accretion, sweeping/ejection), galaxy diversity can be expected to
+organize itself in a hierarchy. About 500 galaxies described by about 40
+observables have now been analysed and several robust trees found. For
+instance, we show that the Dwarf Galaxies of the Local Group all derive from a
+common ancestral kind of objects. We identify three evolutionary groups, each
+one having its own characteristics and own evolution. The Virgo galaxies
+present a relatively regular diversification, with rather few violent events
+such as major mergers. Diversification in another sample made of gas-poor
+galaxies in different environments appears to be slightly more complicated with
+several diverging evolutionary groups. Work on a large sample of galaxies at
+non-zero redshifts is in progress and is pioneering a brand new approach to
+exploit data from the big extragalactic surveys.
+",2
+Q013,how galaxies form and evolve,astro-ph/0612335,"The VIRMOS-VLT Deep Survey: the last 10 billion years of evolution of
+  galaxy clustering","  We discuss the evolution of clustering of galaxies in the Universe from the
+present epoch back to z ~ 2, using the first-epoch data from the VIMOS-VLT Deep
+Survey (VVDS). We present the evolution of the projected two-point correlation
+function of galaxies for the global galaxy population, as well as its
+dependence on galaxy intrinsic luminosities and spectral types. While we do not
+find strong variations of the correlation function parameters with redshift for
+the global galaxy population, the clustering of objects with different
+intrinsic luminosities evolved significantly during last 8-10 billion years.
+Our findings indicate that bright galaxies in the past traced higher density
+peaks than they do now and that the shape of the correlation function of most
+luminous galaxies is different from observed for their local counterparts,
+which is a supporting evidence of a non-trivial evolution of the galaxy vs.
+dark matter bias.
+",1
+Q013,how galaxies form and evolve,astro-ph/0701233,"A comparison among LBGs, DRGs and BzK galaxies: their contribution to
+  the stellar mass density in the GOODS-MUSIC sample","  The classification scheme for high redshift galaxies is complex at the
+present time, with simple colour selection criteria, resulting in ill-defined
+properties regarding stellar mass and star formation rate for these distant
+galaxies. The goal of this work is to investigate the properties of different
+classes of high-z galaxies, focusing in particular on the Stellar Masses of
+LBGs, DRGs and BzKs, in order to derive their contribution to the total mass
+budget of the distant Universe. We have used the GOODS-MUSIC catalog,
+containing ~3000 Ks-selected (~10000 z-selected) galaxies with multi-wavelength
+coverage extending from the U band to the Spitzer 8 micron band, with
+spectroscopic or accurate photometric redshifts. We have selected samples of
+BM/BX/LBGs, DRGs and BzK galaxies, discussed the overlap and the limitations of
+these criteria, which can be overcome with a selection criterion based on
+physical parameters. We have then measured the stellar masses of these galaxies
+and computed the Stellar Mass Density (SMD) for the different samples up to
+redshift ~4. We show that the BzK-PE criterion is not optimal to select early
+type galaxies at the faint end. BzK-SF, on the other hand, is highly
+contaminated by passively evolving galaxies at red z-Ks colours. We find that
+LBGs and DRGs contribute almost equally to the global SMD at z>2 and in general
+that star forming galaxies form a substantial fraction of the universal SMD.
+Passively evolving galaxies show a strong negative density evolution from
+redshift 2 to 3, indicating that we are witnessing the epoch of mass assembly
+of such objects.
+",2
+Q013,how galaxies form and evolve,astro-ph/9702235,The Evolution of the Distribution of Star Formation Rates in Galaxies,"  A large deep and nearly complete B<24.5 redshift sample is used to measure
+the change in distribution function of the stellar mass production rate in
+individual galaxies with redshift. The evolution of the star formation rate
+distribution with redshift is interpreted in terms of the history of spiral
+galaxy formation, with the disk component modelled as a single evolving entity,
+and the characteristic timescales, luminosities, and epochs varying according
+to galaxy type. The more massive forming galaxies seen at z=1 to 3 are
+identified as earlier type spirals, whose star formation rates are initially
+high and then decline rapidly at z<1, while for later type spirals and smaller
+mass irregulars the mass formation rates at z<1 are lower, and the formation
+process persists to redshifts much closer to the present epoch. We find that
+these models can be consistent with the data and fit well into a broad picture
+of other recent results if qnought=0.02 and many of the disks begin their
+growth at z<<3, but that they predict too many bright star formers at high z in
+flat universes.
+",2
+Q013,how galaxies form and evolve,astro-ph/9712157,On the Form of the HII Region Luminosity Function,"  Observed variations in the HII region luminosity function (HII LF) seen in
+spiral arm vs. interarm regions, and different galactic Hubble type, can be
+explained simply by evolutionary effects and maximum number of ionizing stars
+per cluster. We present Monte Carlo simulations of the HII LF, drawing the
+number of ionizing stars N_* from a power-law distribution of constant slope,
+and the stellar masses from a Salpeter IMF with an upper-mass limit of 100
+M_sol. We investigate the evolution of the HII LF, as determined by stellar
+main-sequence lifetimes and ionizing luminosities, for a single burst case and
+continuous creation of the nebular population. Shallower HII LF slopes measured
+for the arms of spiral galaxies can be explained as a composite slope, expected
+for a zero-age burst population, whereas the interarm regions tend to be
+dominated by evolved rich clusters described by a single, steeper slope.
+Steeper slopes in earlier-type galaxies can be explained simply by a lower
+maximum N_* cutoff found for the parent OB associations. The form of the HII LF
+can reveal features of the most recent (~< 10 Myr) star formation history in
+nearby galaxies.
+",1
+Q030,machine learning approaches for climate prediction,1104.3231,Fluctuations in some climate parameters,"  There is argument as to the extent to which there has been an increase over
+the past few decades in the frequency of the extremes of climatic parameters,
+such as temperature, storminess, precipitation, etc, an obvious point being
+that Global Warming might be responsible. Here we report results on those
+parameters of which we have had experience during the last few years: Global
+surface temperature, Cloud Cover and the MODIS Liquid Cloud Fraction. In no
+case we have found indications that fluctuations of these parameters have
+increased with time.
+",0
+Q030,machine learning approaches for climate prediction,1809.08534,"Predicting patient outcomes (TNBC) based on positions of cancer islands
+  and CD8+ T cells using machine learning approach","  Machine learning method is being applied in cancer research. In this work, we
+propose a method to classify the small patch of triple-negative breast cancer
+(TNBC) tumor and use the overall percentage of ""good"" patches as a marker to
+predict the prognosis, which is an automatic method of prognosis and could also
+be used for other cancers.
+",0
+Q030,machine learning approaches for climate prediction,2005.04988,"A review of radar-based nowcasting of precipitation and applicable
+  machine learning techniques","  A 'nowcast' is a type of weather forecast which makes predictions in the very
+short term, typically less than two hours - a period in which traditional
+numerical weather prediction can be limited. This type of weather prediction
+has important applications for commercial aviation; public and outdoor events;
+and the construction industry, power utilities, and ground transportation
+services that conduct much of their work outdoors. Importantly, one of the key
+needs for nowcasting systems is in the provision of accurate warnings of
+adverse weather events, such as heavy rain and flooding, for the protection of
+life and property in such situations. Typical nowcasting approaches are based
+on simple extrapolation models applied to observations, primarily rainfall
+radar. In this paper we review existing techniques to radar-based nowcasting
+from environmental sciences, as well as the statistical approaches that are
+applicable from the field of machine learning. Nowcasting continues to be an
+important component of operational systems and we believe new advances are
+possible with new partnerships between the environmental science and machine
+learning communities.
+",1
+Q030,machine learning approaches for climate prediction,2107.03318,Climate Change Conspiracy Theories on Social Media,"  One of the critical emerging challenges in climate change communication is
+the prevalence of conspiracy theories. This paper discusses some of the major
+conspiracy theories related to climate change found in a large Twitter corpus.
+We use a state-of-the-art stance detection method to find whether conspiracy
+theories are more popular among Disbelievers or Believers of climate change. We
+then analyze which conspiracy theory is more popular than the others and how
+popularity changes with climate change belief. We find that Disbelievers of
+climate change are overwhelmingly responsible for sharing messages with
+conspiracy theory-related keywords, and not all conspiracy theories are equally
+shared. Lastly, we discuss the implications of our findings for climate change
+communication.
+",0
+Q030,machine learning approaches for climate prediction,2108.07480,"Technical report: Impact of evaluation metrics and sampling on the
+  comparison of machine learning methods for biodiversity indicators prediction","  Machine learning (ML) approaches are used more and more widely in
+biodiversity monitoring. In particular, an important application is the problem
+of predicting biodiversity indicators such as species abundance, species
+occurrence or species richness, based on predictor sets containing, e.g.,
+climatic and anthropogenic factors. Considering the impressive number of
+different ML methods available in the litterature and the pace at which they
+are being published, it is crucial to develop uniform evaluation procedures, to
+allow the production of sound and fair empirical studies. However, defining
+fair evaluation procedures is challenging: because well-documented, intrinsic
+properties of biodiversity indicators such as their zero-inflation and
+over-dispersion, it is not trivial to design good sampling schemes for
+cross-validation nor good evaluation metrics. Indeed, the classical Mean
+Squared Error (MSE) fails to capture subtle differences in the performance of
+different methods, particularly in terms of prediction of very small, or very
+large values (e.g., zero counts or large counts). In this report, we illustrate
+this phenomenon by comparing ten statistical and machine learning models on the
+task of predicting waterbirds abundance in the North-African area, based on
+geographical, meteorological and spatio-temporal factors. Our results highlight
+that differnte off-the-shelf evaluation metrics and cross-validation sampling
+approaches yield drastically different rankings of the metrics, and fail to
+capture interpretable conclusions.
+",1
+Q030,machine learning approaches for climate prediction,2201.04461,Blackbox Post-Processing for Multiclass Fairness,"  Applying standard machine learning approaches for classification can produce
+unequal results across different demographic groups. When then used in
+real-world settings, these inequities can have negative societal impacts. This
+has motivated the development of various approaches to fair classification with
+machine learning models in recent years. In this paper, we consider the problem
+of modifying the predictions of a blackbox machine learning classifier in order
+to achieve fairness in a multiclass setting. To accomplish this, we extend the
+'post-processing' approach in Hardt et al. 2016, which focuses on fairness for
+binary classification, to the setting of fair multiclass classification. We
+explore when our approach produces both fair and accurate predictions through
+systematic synthetic experiments and also evaluate discrimination-fairness
+tradeoffs on several publicly available real-world application datasets. We
+find that overall, our approach produces minor drops in accuracy and enforces
+fairness when the number of individuals in the dataset is high relative to the
+number of classes and protected groups.
+",0
+Q030,machine learning approaches for climate prediction,2211.10884,"Multi-scale Digital Twin: Developing a fast and physics-informed
+  surrogate model for groundwater contamination with uncertain climate models","  Soil and groundwater contamination is a pervasive problem at thousands of
+locations across the world. Contaminated sites often require decades to
+remediate or to monitor natural attenuation. Climate change exacerbates the
+long-term site management problem because extreme precipitation and/or shifts
+in precipitation/evapotranspiration regimes could re-mobilize contaminants and
+proliferate affected groundwater. To quickly assess the spatiotemporal
+variations of groundwater contamination under uncertain climate disturbances,
+we developed a physics-informed machine learning surrogate model using U-Net
+enhanced Fourier Neural Operator (U-FNO) to solve Partial Differential
+Equations (PDEs) of groundwater flow and transport simulations at the site
+scale.We develop a combined loss function that includes both data-driven
+factors and physical boundary constraints at multiple spatiotemporal scales.
+Our U-FNOs can reliably predict the spatiotemporal variations of groundwater
+flow and contaminant transport properties from 1954 to 2100 with realistic
+climate projections. In parallel, we develop a convolutional autoencoder
+combined with online clustering to reduce the dimensionality of the vast
+historical and projected climate data by quantifying climatic region
+similarities across the United States. The ML-based unique climate clusters
+provide climate projections for the surrogate modeling and help return reliable
+future recharge rate projections immediately without querying large climate
+datasets. In all, this Multi-scale Digital Twin work can advance the field of
+environmental remediation under climate change.
+",1
+Q030,machine learning approaches for climate prediction,2212.00554,"Early prediction of the risk of ICU mortality with Deep Federated
+  Learning","  Intensive Care Units usually carry patients with a serious risk of mortality.
+Recent research has shown the ability of Machine Learning to indicate the
+patients' mortality risk and point physicians toward individuals with a
+heightened need for care. Nevertheless, healthcare data is often subject to
+privacy regulations and can therefore not be easily shared in order to build
+Centralized Machine Learning models that use the combined data of multiple
+hospitals. Federated Learning is a Machine Learning framework designed for data
+privacy that can be used to circumvent this problem. In this study, we evaluate
+the ability of deep Federated Learning to predict the risk of Intensive Care
+Unit mortality at an early stage. We compare the predictive performance of
+Federated, Centralized, and Local Machine Learning in terms of AUPRC, F1-score,
+and AUROC. Our results show that Federated Learning performs equally well as
+the centralized approach and is substantially better than the local approach,
+thus providing a viable solution for early Intensive Care Unit mortality
+prediction. In addition, we show that the prediction performance is higher when
+the patient history window is closer to discharge or death. Finally, we show
+that using the F1-score as an early stopping metric can stabilize and increase
+the performance of our approach for the task at hand.
+",0
+Q030,machine learning approaches for climate prediction,2212.03369,Exploring Randomly Wired Neural Networks for Climate Model Emulation,"  Exploring the climate impacts of various anthropogenic emissions scenarios is
+key to making informed decisions for climate change mitigation and adaptation.
+State-of-the-art Earth system models can provide detailed insight into these
+impacts, but have a large associated computational cost on a per-scenario
+basis. This large computational burden has driven recent interest in developing
+cheap machine learning models for the task of climate model emulation. In this
+manuscript, we explore the efficacy of randomly wired neural networks for this
+task. We describe how they can be constructed and compare them to their
+standard feedforward counterparts using the ClimateBench dataset. Specifically,
+we replace the serially connected dense layers in multilayer perceptrons,
+convolutional neural networks, and convolutional long short-term memory
+networks with randomly wired dense layers and assess the impact on model
+performance for models with 1 million and 10 million parameters. We find that
+models with less complex architectures see the greatest performance improvement
+with the addition of random wiring (up to 30.4% for multilayer perceptrons).
+Furthermore, out of 24 different model architecture, parameter count, and
+prediction task combinations, only one saw a statistically significant
+performance deficit in randomly wired networks compared to their standard
+counterparts, with 14 cases showing statistically significant improvement. We
+also find no significant difference in prediction speed between networks with
+standard feedforward dense layers and those with randomly wired layers. These
+findings indicate that randomly wired neural networks may be suitable direct
+replacements for traditional dense layers in many standard models.
+",2
+Q030,machine learning approaches for climate prediction,2401.11462,Frost Prediction Using Machine Learning Methods in Fars Province,"  One of the common hazards and issues in meteorology and agriculture is the
+problem of frost, chilling or freezing. This event occurs when the minimum
+ambient temperature falls below a certain value. This phenomenon causes a lot
+of damage to the country, especially Fars province. Solving this problem
+requires that, in addition to predicting the minimum temperature, we can
+provide enough time to implement the necessary measures. Empirical methods have
+been provided by the Food and Agriculture Organization (FAO), which can predict
+the minimum temperature, but not in time. In addition to this, we can use
+machine learning methods to model the minimum temperature. In this study, we
+have used three methods Gated Recurrent Unit (GRU), Temporal Convolutional
+Network (TCN) as deep learning methods, and Gradient Boosting (XGBoost). A
+customized loss function designed for methods based on deep learning, which can
+be effective in reducing prediction errors. With methods based on deep learning
+models, not only do we observe a reduction in RMSE error compared to empirical
+methods but also have more time to predict minimum temperature. Thus, we can
+model the minimum temperature for the next 24 hours by having the current 24
+hours. With the gradient boosting model (XGBoost) we can keep the prediction
+time as deep learning and RMSE error reduced. Finally, we experimentally
+concluded that machine learning methods work better than empirical methods and
+XGBoost model can have better performance in this problem among other
+implemented.
+",1
+Q030,machine learning approaches for climate prediction,2406.09046,"ExioML: Eco-economic dataset for Machine Learning in Global Sectoral
+  Sustainability","  The Environmental Extended Multi-Regional Input-Output analysis is the
+predominant framework in Ecological Economics for assessing the environmental
+impact of economic activities. This paper introduces ExioML, the first Machine
+Learning benchmark dataset designed for sustainability analysis, aimed at
+lowering barriers and fostering collaboration between Machine Learning and
+Ecological Economics research. A crucial greenhouse gas emission regression
+task was conducted to evaluate sectoral sustainability and demonstrate the
+usability of the dataset. We compared the performance of traditional shallow
+models with deep learning models, utilizing a diverse Factor Accounting table
+and incorporating various categorical and numerical features. Our findings
+reveal that ExioML, with its high usability, enables deep and ensemble models
+to achieve low mean square errors, establishing a baseline for future Machine
+Learning research. Through ExioML, we aim to build a foundational dataset
+supporting various Machine Learning applications and promote climate actions
+and sustainable investment decisions.
+",0
+Q030,machine learning approaches for climate prediction,2406.14798,"Probabilistic Emulation of a Global Climate Model with Spherical
+  DYffusion","  Data-driven deep learning models are transforming global weather forecasting.
+It is an open question if this success can extend to climate modeling, where
+the complexity of the data and long inference rollouts pose significant
+challenges. Here, we present the first conditional generative model that
+produces accurate and physically consistent global climate ensemble simulations
+by emulating a coarse version of the United States' primary operational global
+forecast model, FV3GFS. Our model integrates the dynamics-informed diffusion
+framework (DYffusion) with the Spherical Fourier Neural Operator (SFNO)
+architecture, enabling stable 100-year simulations at 6-hourly timesteps while
+maintaining low computational overhead compared to single-step deterministic
+baselines. The model achieves near gold-standard performance for climate model
+emulation, outperforming existing approaches and demonstrating promising
+ensemble skill. This work represents a significant advance towards efficient,
+data-driven climate simulations that can enhance our understanding of the
+climate system and inform adaptation strategies.
+",2
+Q030,machine learning approaches for climate prediction,2407.04351,"A Statistical Reduced Complexity Climate Model for Probabilistic
+  Analyses and Projections","  We propose a new statistical reduced complexity climate model. The
+centerpiece of the model consists of a set of physical equations for the global
+climate system which we show how to cast in non-linear state space form. The
+parameters in the model are estimated using the method of maximum likelihood
+with the likelihood function being evaluated by the extended Kalman filter. Our
+statistical framework is based on well-established methodology and is
+computationally feasible. In an empirical analysis, we estimate the parameters
+for a data set comprising the period 1959-2022. A likelihood ratio test sheds
+light on the most appropriate equation for converting the level of atmospheric
+concentration of carbon dioxide into radiative forcing. Using the estimated
+model, and different future paths of greenhouse gas emissions, we project
+global mean surface temperature until the year 2100. Our results illustrate the
+potential of combining statistical modelling with physical insights to arrive
+at rigorous statistical analyses of the climate system.
+",1
+Q030,machine learning approaches for climate prediction,2412.14048,"Evidential Deep Learning for Probabilistic Modelling of Extreme Storm
+  Events","  Uncertainty quantification (UQ) methods play an important role in reducing
+errors in weather forecasting. Conventional approaches in UQ for weather
+forecasting rely on generating an ensemble of forecasts from physics-based
+simulations to estimate the uncertainty. However, it is computationally
+expensive to generate many forecasts to predict real-time extreme weather
+events. Evidential Deep Learning (EDL) is an uncertainty-aware deep learning
+approach designed to provide confidence about its predictions using only one
+forecast. It treats learning as an evidence acquisition process where more
+evidence is interpreted as increased predictive confidence. We apply EDL to
+storm forecasting using real-world weather datasets and compare its performance
+with traditional methods. Our findings indicate that EDL not only reduces
+computational overhead but also enhances predictive uncertainty. This method
+opens up novel opportunities in research areas such as climate risk assessment,
+where quantifying the uncertainty about future climate is crucial.
+",1
+Q030,machine learning approaches for climate prediction,2412.17506,Uncertainties of Satellite-based Essential Climate Variables from Deep Learning,"Accurate uncertainty information associated with essential climate variables (ECVs) is crucial for reliable climate modeling and understanding the spatiotemporal evolution of the Earth system. In recent years, geoscience and climate scientists have benefited from rapid progress in deep learning to advance the estimation of ECV products with improved accuracy. However, the quantification of uncertainties associated with the output of such deep learning models has yet to be thoroughly adopted. This survey explores the types of uncertainties associated with ECVs estimated from deep learning and the techniques to quantify them. The focus is on highlighting the importance of quantifying uncertainties inherent in ECV estimates, considering the dynamic and multifaceted nature of climate data. The survey starts by clarifying the definition of aleatoric and epistemic uncertainties and their roles in a typical satellite observation processing workflow, followed by bridging the gap between conventional statistical and deep learning views on uncertainties. Then, we comprehensively review the existing techniques for quantifying uncertainties associated with deep learning algorithms, focusing on their application in ECV studies. The specific need for modification to fit the requirements from both the Earth observation side and the deep learning side in such interdisciplinary tasks is discussed. Finally, we demonstrate our findings with two ECV examples, snow cover and terrestrial water storage, and provide our perspectives for future research.",1
+Q030,machine learning approaches for climate prediction,2603.03838,Climate Downscaling with Stochastic Interpolants (CDSI),"Global climate projections rely on computationally demanding Earth System Models (ESMs), which are typically limited to coarse spatial resolutions due to their high cost. To obtain high-resolution projections for regions of interest, it is common to use Regional Climate Models (RCMs), which are driven by data produced by ESMs as boundary conditions. While more efficient than running ESMs at fine resolution, RCMs remain expensive and restrict the size of ensemble simulations. Inspired by recent advances in probabilistic machine learning for weather and climate, we introduce a data-driven climate downscaling method based on stochastic interpolants. Our approach efficiently transforms coarse ESM output into high-resolution regional climate projections at a fraction of the computational cost of traditional RCMs. Through extensive validation, we demonstrate that our method generates accurate regional ensembles, enabling both improved uncertainty quantification and broader use of high-resolution climate information.",2
+Q030,machine learning approaches for climate prediction,2603.19591,Data-driven ensemble prediction of the global ocean,"Data-driven models have advanced deterministic ocean forecasting, but extending machine learning to probabilistic global ocean prediction remains an open challenge. Here we introduce FuXi-ONS, the first machine-learning ensemble forecasting system for the global ocean, providing 5-day forecasts on a global 1{\deg} grid up to 365 days for sea-surface temperature, sea-surface height, subsurface temperature, salinity and ocean currents. Rather than relying on repeated integration of computationally expensive numerical models, FuXi-ONS learns physically structured perturbations and incorporates an atmospheric encoding module to stabilize long-range forecasts. Evaluated against GLORYS12 reanalysis, FuXi-ONS improves both ensemble-mean skill and probabilistic forecast quality relative to deterministic and noise-perturbed baselines, and shows competitive performance against established seasonal forecast references for SST and Ni\~no3.4 variability, while running orders of magnitude faster than conventional ensemble systems. These results provide a strong example of machine learning advancing a core problem in ocean science, and establish a practical path toward efficient probabilistic ocean forecasting and climate risk assessment.",1
+Q030,machine learning approaches for climate prediction,2605.28153,Skillful high-resolution weather forecasting independent of physical models,"Accurate and timely weather forecasts are critical for high-impact decisions in modern society. Machine-learning-based weather prediction is emerging as an alternative for producing initial conditions, forecasts, and even both in end-to-end systems. These methods deliver predictions faster and often with higher skill than traditional numerical weather prediction (NWP). However, even end-to-end models typically rely on NWP-generated reanalyses for supervision, thereby inheriting the biases and resolution limitations of those NWPs, and limiting adaptation to settings where suitable reanalysis products are unavailable, infrequently updated, or expensive to produce. Here we introduce ObsCast, a regional system that generates both analysis and predictions, without using any NWP-derived data in either training or inference, while still achieving state-of-the-art performance in short-term high-resolution regional modeling. Over the contiguous United States and Europe, ObsCast outperforms operational NWP for near-surface variables through 18 h and produces skillful precipitation forecasts. It provides a simpler and more adaptable route to build and refine regional forecasting services directly from local observations, without the need to develop complex and costly traditional forecasting pipelines.",1
+Q030,machine learning approaches for climate prediction,2610.09752,SoftSEEPS improves ML-based precipitation forecasting,"In this paper we have developed a differentiable approximation of the well-known SEEPS score, which we name SoftSEEPS. This allows the training of a Machine Learning model to forecast precipitation directly. We test SoftSEEPS on the IMERG dataset (0.1 degree resolution) by training a decoder for precipitation on the latent space of a pre-trained low-resolution forecasting model. Combining SoftSEEPS and RMSE in a joint objective is possible with marginal trade-offs in either metric.",1
+Q030,machine learning approaches for climate prediction,cond-mat/0403668,"Application of detrended fluctuation analysis to monthly average of the
+  maximum daily temperatures to resolve different climates","  Detrended fluctuation analysis is used to investigate correlations between
+the monthly average of the maximum daily temperatures for different locations
+in the continental US and the different climates these locations have. When we
+plot the scaling exponents obtained from the detrended fluctuation analysis
+versus the standard deviation of the temperature fluctuations we observe
+crowding of data points belonging to the same climates. Thus, we conclude that
+by observing the long-time trends in the fluctuations of temperature it would
+be possible to distinguish between different climates.
+",0

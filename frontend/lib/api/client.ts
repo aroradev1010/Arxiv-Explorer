@@ -170,7 +170,6 @@ export async function request<T>(
   schema: z.ZodType,
   signal?: AbortSignal,
   body?: object,
-  method = 'POST',
 ): Promise<T> {
   const controller = new AbortController();
   const abort = () => controller.abort();
@@ -184,7 +183,7 @@ export async function request<T>(
         signal: controller.signal,
         ...(body
           ? {
-              method,
+              method: "POST",
               headers: { "Content-Type": "application/json" },
               body: JSON.stringify(body),
             }

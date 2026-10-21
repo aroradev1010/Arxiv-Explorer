@@ -23,8 +23,12 @@ def bm25_scores(counts: sparse.csc_matrix, lengths: np.ndarray, idf: np.ndarray,
     scores = np.zeros(counts.shape[0], dtype=np.float64)
     for term in np.unique(terms):
         start, end = counts.indptr[term:term + 2]
-        docs, tf = counts.indices[start:end], counts.data[start:end].astype(np.float64)
-        scores[docs] += idf[term] * tf * (k1 + 1) / (tf + k1 * (1 - b + b * lengths[docs] / avgdl))
+        documents = counts.indices[start:end]
+        term_frequency = counts.data[start:end].astype(np.float64)
+        length_normalization = k1 * (1 - b + b * lengths[documents] / avgdl)
+        scores[documents] += (
+            idf[term] * term_frequency * (k1 + 1) / (term_frequency + length_normalization)
+        )
     return scores
 
 

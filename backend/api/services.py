@@ -1,5 +1,6 @@
 """Request-local orchestration with shared eligibility, preparation and explanations."""
 from itertools import combinations
+from dataclasses import replace
 from time import perf_counter
 import numpy as np
 import psutil
@@ -131,7 +132,6 @@ class SearchService:
         retrieval_start = perf_counter()
         hits = self.retrievers['semantic'].search(PreparedQuery(None, None, vector), limit + 1)
         hits = [hit for hit in hits if hit.paper_id != paper_id][:limit]
-        from dataclasses import replace
         hits = [replace(hit, rank=rank) for rank, hit in enumerate(hits, 1)]
         measured = {'semantic': (perf_counter() - retrieval_start) * 1000}
         measured['retrieval'] = measured['semantic']
@@ -168,11 +168,17 @@ class SearchService:
                                            request.top_k, metadata, prepared, path)
         ranks = {mode: {hit.paper_id: hit.rank for hit in rankings[mode][:request.top_k]} for mode in request.modes}
         pairs = list(combinations(request.modes, 2))
-        overlaps = {f'{a}:{b}': sorted(set(ranks[a]) & set(ranks[b])) for a, b in pairs}
+        overlaps = {f'{first}:{second}': sorted(set(ranks[first]) & set(ranks[second]))
+                    for first, second in pairs}
         differences = []
         for paper_id in ids:
             positions = {mode: ranks[mode].get(paper_id) for mode in request.modes}
-            deltas = {f'{a}:{b}': positions[b] - positions[a] if positions[a] is not None and positions[b] is not None else None for a, b in pairs}
+            deltas = {}
+            for first, second in pairs:
+                first_rank, second_rank = positions[first], positions[second]
+                deltas[f'{first}:{second}'] = (
+                    second_rank - first_rank if first_rank is not None and second_rank is not None else None
+                )
             differences.append(RankDifference(paper_id=paper_id, ranks=positions, delta_by_pair=deltas))
         measured['total'] = (perf_counter() - started) * 1000
         return CompareResponse(query=request.query, filters=request.filters, methods=methods,

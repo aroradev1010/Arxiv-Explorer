@@ -1,24 +1,15 @@
 @import "tailwindcss";
 @custom-variant dark (&:where(.dark, .dark *));
 :root {
-  --background: #f7f8fb;
-  --surface: #ffffff;
-  --foreground: #172338;
-  --secondary: #536177;
-  --primary: #374ec5;
-  --primary-foreground: #ffffff;
-  --muted: #edf0f7;
-  --border: #dce2ec;
-}
-.dark {
-  --background: #111722;
-  --surface: #192231;
-  --foreground: #ecf0f8;
-  --secondary: #b0bed1;
+  color-scheme: dark;
+  --background: #0c0c0e;
+  --surface: #161618;
+  --foreground: #eeeef0;
+  --secondary: #aaaab2;
   --primary: #9aaeff;
-  --primary-foreground: #131b33;
-  --muted: #263348;
-  --border: #354259;
+  --primary-foreground: #101014;
+  --muted: #232326;
+  --border: #303034;
 }
 @theme inline {
   --color-background: var(--background);
@@ -546,26 +537,19 @@ td:first-child {
 .prose p {
   color: var(--secondary);
 }
-.metric-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 18px;
-}
 .evaluation-section { padding: 24px; margin-bottom: 24px; }
 .evaluation-section h2 { margin-bottom: 12px; }
-.evaluation-section p { margin-bottom: 12px; }
-.evaluation-actions { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; margin: 18px 0; }
-.evaluation-section label, .evaluation-actions label { display: flex; flex-direction: column; gap: 8px; min-width: 0; }
-.evaluation-section input, .evaluation-section select, .evaluation-actions select, .evaluation-section textarea { background: var(--surface); color: var(--foreground); border: 1px solid var(--border); border-radius: 8px; padding: 10px; max-width: 100%; }
-.evaluation-section select, .evaluation-section textarea { width: 100%; }
-.evaluation-actions select { max-width: 480px; }
-.evaluation-section input[type=radio], .evaluation-section input[type=checkbox] { width: auto; }
-.evaluation-section a { color: var(--primary); text-decoration: underline; }
-.evaluation-section progress { width: 100%; }
-.evaluation-section td, .evaluation-section th { padding: 10px; text-align: left; }
-.evaluation-section table { width: 100%; }
-.metric-grid > div {
-  padding: 24px;
+.evaluation-section p { margin-bottom: 12px; color: var(--secondary); font-size: 14px; }
+.evaluation-section p:last-child { margin-bottom: 0; }
+.evaluation-table { overflow-x: auto; }
+.evaluation-table table { width: 100%; border-collapse: collapse; font-size: 14px; }
+.evaluation-table th, .evaluation-table td { padding: 12px 10px; text-align: right; border-bottom: 1px solid var(--border); }
+.evaluation-table th:first-child { text-align: left; white-space: nowrap; }
+.evaluation-table thead { color: var(--secondary); }
+.evaluation-table td { font-variant-numeric: tabular-nums; }
+@media (max-width: 767px) {
+  .evaluation-section { padding: 18px; }
+  .evaluation-table th, .evaluation-table td { padding: 10px 5px; font-size: 12px; }
 }
 .skip-link {
   position: absolute;
@@ -641,9 +625,6 @@ td:first-child {
   }
   .mobile-tabs {
     display: flex;
-  }
-  .metric-grid {
-    grid-template-columns: 1fr;
   }
   .brand {
     font-size: 18px;

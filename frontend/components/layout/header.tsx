@@ -1,8 +1,7 @@
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useTheme } from "next-themes";
-import { BookOpen, Menu, SunMoon } from "lucide-react";
+import { BookOpen, Menu } from "lucide-react";
 import { useState } from "react";
 import { Button } from "../ui/button";
 import { Sheet } from "../ui/sheet";
@@ -10,11 +9,9 @@ const links = [
   ["/search", "Search"],
   ["/compare", "Compare"],
   ["/evaluation", "Evaluation"],
-  ["/about", "About"],
 ];
 export function Header() {
   const pathname = usePathname();
-  const { resolvedTheme, setTheme } = useTheme();
   const [open, setOpen] = useState(false);
   const navigation = (
     <nav aria-label="Main navigation">
@@ -44,16 +41,6 @@ export function Header() {
         </Link>
         <div className="hidden md:block">{navigation}</div>
         <div className="flex items-center gap-2">
-          <Button
-            variant="ghost"
-            size="icon"
-            aria-label="Toggle light and dark theme"
-            onClick={() =>
-              setTheme(resolvedTheme === "dark" ? "light" : "dark")
-            }
-          >
-            <SunMoon size={20} />
-          </Button>
           <div className="md:hidden">
             <Sheet
               title="Navigation"

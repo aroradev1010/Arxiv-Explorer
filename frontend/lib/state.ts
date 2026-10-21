@@ -78,10 +78,13 @@ export function parseState(p: Pick<URLSearchParams, "get">): SearchState {
   };
 }
 export function params(values: object): URLSearchParams {
-  const p = new URLSearchParams();
-  for (const [k, v] of Object.entries(values))
-    if (v !== undefined && v !== null && v !== "") p.set(k, String(v));
-  return p;
+  const parameters = new URLSearchParams();
+  for (const [key, value] of Object.entries(values)) {
+    if (value !== undefined && value !== null && value !== "") {
+      parameters.set(key, String(value));
+    }
+  }
+  return parameters;
 }
 export function searchURL(s: SearchState) {
   return (
@@ -133,14 +136,14 @@ export function canNext(p: SearchResponse["pagination"]) {
 export function nextLimit(p: SearchResponse["pagination"]) {
   return Math.min(p.limit, p.ranking_window_size - p.offset - p.limit);
 }
-export function fusionSummary(r: RankedPaper) {
-  const c = Object.values(r.ranking_details.contributions || {});
-  const sum = c.reduce((n, v) => n + v.contribution, 0);
-  const constants = c.map((v) => 1 / v.contribution - v.rank);
+export function fusionSummary(result: RankedPaper) {
+  const contributions = Object.values(result.ranking_details.contributions || {});
+  const sum = contributions.reduce((total, entry) => total + entry.contribution, 0);
+  const constants = contributions.map((entry) => 1 / entry.contribution - entry.rank);
   const k =
     constants.length &&
     constants.every((v) => Math.abs(v - constants[0]) < 1e-6)
       ? Math.round(constants[0])
       : null;
-  return { sum, k, matches: Math.abs(sum - r.score) < 1e-8 };
+  return { sum, k, matches: Math.abs(sum - result.score) < 1e-8 };
 }
